@@ -5,11 +5,11 @@
   <img alt="Ling-3.0-tiny, 3.12 GB. 24 layers: 18 KDA (layer 0 with a dense FFN) and 6 gated MLA. Routed experts IQ3_XXS with refined codes, 86% of the weights." src="figures/banner-light.png">
 </picture>
 
-Code, measurements and figures behind [Ling-3.0-tiny-IQ3_XXS-refined.gguf](https://huggingface.co/Me-Daniel/Ling-3.0-tiny-GGUF), a 3 GB GGUF of [inclusionAI/Ling-3.0-tiny](https://huggingface.co/inclusionAI/Ling-3.0-tiny). On four held-out text sets it stays 21% to 46% closer to the original model than bloomer010's IQ3_XXS and 21% to 51% closer than bartowski's Q2_K_L, at the smallest size of the three, the same speed and the same HellaSwag score.
+Code, measurements and figures behind [Ling-3.0-tiny-IQ3_XXS-refined.gguf](https://huggingface.co/Me-Daniel/Ling-3.0-tiny-3GB-GGUF), a 3 GB GGUF of [inclusionAI/Ling-3.0-tiny](https://huggingface.co/inclusionAI/Ling-3.0-tiny). On four held-out text sets it stays 21% to 46% closer to the original model than bloomer010's IQ3_XXS and 21% to 51% closer than bartowski's Q2_K_L, at the smallest size of the three, the same speed and the same HellaSwag score.
 
 This repository is the test run for our Ling-3.2-air quantization: on the small sibling model we checked what llama.cpp supports on the `bailingmoe3` architecture, what each part of the model tolerates, and whether our refiner works here, before spending compute on Air. Every run used one Apple M5 Pro with 48 GB, llama.cpp `c661033` and Metal.
 
-- Model: [huggingface.co/Me-Daniel/Ling-3.0-tiny-GGUF](https://huggingface.co/Me-Daniel/Ling-3.0-tiny-GGUF)
+- Model: [huggingface.co/Me-Daniel/Ling-3.0-tiny-3GB-GGUF](https://huggingface.co/Me-Daniel/Ling-3.0-tiny-3GB-GGUF)
 - Findings for Ling-3.2-air: [results/findings.md](results/findings.md)
 - Dated log, registered rules and the status of every number: [CHANGELOG.md](CHANGELOG.md)
 
