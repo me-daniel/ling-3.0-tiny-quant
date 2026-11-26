@@ -7,7 +7,7 @@
 
 Code, measurements and figures behind [Ling-3.0-tiny-IQ3_XXS-refined.gguf](https://huggingface.co/Me-Daniel/Ling-3.0-tiny-GGUF), a 3 GB GGUF of [inclusionAI/Ling-3.0-tiny](https://huggingface.co/inclusionAI/Ling-3.0-tiny). On four held-out text sets it stays 21% to 46% closer to the original model than bloomer010's IQ3_XXS and 21% to 51% closer than bartowski's Q2_K_L, at the smallest size of the three, the same speed and the same HellaSwag score.
 
-The work started as a pilot for quantizing Ling-3.2-air: what does llama.cpp support on the `bailingmoe3` architecture, and what does each part of the model tolerate? Every run used one Apple M5 Pro with 48 GB, llama.cpp `c661033` and Metal.
+This repository is the test run for our Ling-3.2-air quantization: on the small sibling model we checked what llama.cpp supports on the `bailingmoe3` architecture, what each part of the model tolerates, and whether our refiner works here, before spending compute on Air. Every run used one Apple M5 Pro with 48 GB, llama.cpp `c661033` and Metal.
 
 - Model: [huggingface.co/Me-Daniel/Ling-3.0-tiny-GGUF](https://huggingface.co/Me-Daniel/Ling-3.0-tiny-GGUF)
 - Findings for Ling-3.2-air: [results/findings.md](results/findings.md)
@@ -138,3 +138,5 @@ Checks: `.venv/bin/python -I -m pytest -q tests` and `.venv/bin/python scripts/t
 ## Status
 
 v1.0 is released. KL against BF16 measures closeness to the original model; HellaSwag is the one task check so far. Everything ran on one machine, at one engine commit, with one calibration text. The findings for Ling-3.2-air are pilot results, not results about that model. Changes and registrations: [CHANGELOG.md](CHANGELOG.md).
+
+Code: MIT License ([LICENSE](LICENSE)). The model file follows the base model's MIT License.
