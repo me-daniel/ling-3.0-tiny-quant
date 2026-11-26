@@ -1,29 +1,35 @@
 # ling-3.0-tiny-quant
 
-We ran a short quantization pilot for the Ling-3.2 models.
-
-<!-- DRAFT, true as of 25 Nov 2026. Fill every "TBD (release gate)" from results/release-gate.md / .tsv.
-     Banner: re-render with --layout of the scored file and --record (scripts/refine_record.py) before it may say
-     refined. Alt text: figures/alt.md. Never link figures/demo/ (synthetic, git-ignored). -->
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="figures/banner-dark.png">
-  <img alt="Ling-3.0-tiny, 3.12 GB. 24 layers: 18 KDA (layer 0 with a dense FFN) and 6 gated MLA. Routed experts IQ3_XXS, 86% of the weights." src="figures/banner-light.png">
+  <img alt="Ling-3.0-tiny, 3.12 GB. 24 layers: 18 KDA (layer 0 with a dense FFN) and 6 gated MLA. Routed experts IQ3_XXS with refined codes, 86% of the weights." src="figures/banner-light.png">
 </picture>
 
-We ran this pilot on [inclusionAI/Ling-3.0-tiny](https://huggingface.co/inclusionAI/Ling-3.0-tiny) (revision `9a98e35fe1c9ee255f78dd64771c7ae15a799481`) as a low-cost way to check what llama.cpp supports on the `bailingmoe3` architecture before we quantize Ling-3.2-air. Every run used one Apple M5 Pro with 48 GB, llama.cpp `c661033` and Metal.
+Code, measurements and figures behind [Ling-3.0-tiny-IQ3_XXS-refined.gguf](https://huggingface.co/Me-Daniel/Ling-3.0-tiny-GGUF), a 3 GB GGUF of [inclusionAI/Ling-3.0-tiny](https://huggingface.co/inclusionAI/Ling-3.0-tiny). On four held-out text sets it stays 21% to 46% closer to the original model than bloomer010's IQ3_XXS and 21% to 51% closer than bartowski's Q2_K_L, at the smallest size of the three, the same speed and the same HellaSwag score.
 
-Our sensitivity-allocated mix, m2, is 3.12 GB. On the first 16 chunks of each selection set, its mean KL to BF16 was 20% lower than that of bloomer010 IQ3_XXS on wiki.test and 26% lower on eval-ood (`results/ablations.tsv`). The expert-code refinement on m2 and the four-set release comparison are pending.
+The work started as a pilot for quantizing Ling-3.2-air: what does llama.cpp support on the `bailingmoe3` architecture, and what does each part of the model tolerate? Every run used one Apple M5 Pro with 48 GB, llama.cpp `c661033` and Metal.
 
-- Model on Hugging Face: TBD (release gate)
+- Model: [huggingface.co/Me-Daniel/Ling-3.0-tiny-GGUF](https://huggingface.co/Me-Daniel/Ling-3.0-tiny-GGUF)
 - Findings for Ling-3.2-air: [results/findings.md](results/findings.md)
-- Dated log, registrations and the status of every number: [CHANGELOG.md](CHANGELOG.md)
+- Dated log, registered rules and the status of every number: [CHANGELOG.md](CHANGELOG.md)
 
 ## Release gate
 
-TBD (release gate): figure A with its alt text, and the table from `results/release-gate.md`.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="figures/release-gate-dark.png">
+  <img alt="Mean KL per set for the three files, and ours minus each comparator with paired 95% intervals. Ours is lower on every set: Chinese 0.33 vs 0.41 and 0.41, code 0.15 vs 0.25 and 0.22, tool calls 0.46 vs 0.58 and 0.61, long books 0.12 vs 0.23 and 0.25; every interval is below zero." src="figures/release-gate-light.png">
+</picture>
 
-We registered the gate on 25 Nov 2026, before any release scores existed. We compare the candidate with bloomer010 IQ3_XXS (3.13 GB, `results/twin.md`) and bartowski Q2_K_L, the nearest bartowski file at least as large as m2 (3.24 GB, `ea07272`, CHANGELOG 25 Nov). The sets are zh, code and tool at 128 × 512 and four PG19 books at 8 × 4,096, with one BF16 reference per set and a Q8_0 run as a reference point. Against each comparator separately, the candidate passes only if its KL is lower on all four sets with the paired 95% interval below zero, and its file is not larger; the intervals are pointwise. `scripts/release_gate_report.py` checks every file, count and byte size, applies the gate once using unrounded values and prints a book-stratified PG19 interval as a sensitivity check.
+| KL vs BF16 | Ours (3.12 GB) | bloomer010 IQ3_XXS (3.13 GB) | bartowski Q2_K_L (3.24 GB) |
+|---|---|---|---|
+| Chinese (128 × 512) | 0.328 | 0.413 | 0.413 |
+| Code (128 × 512) | 0.146 | 0.250 | 0.217 |
+| Tool calls (128 × 512) | 0.459 | 0.583 | 0.614 |
+| Long books, PG19 (32 × 4,096) | 0.123 | 0.229 | 0.251 |
+
+We registered the gate before any release scores existed: against each comparator, our file passes only if its KL is lower on all four sets with the paired 95% interval below zero, and it is not larger. It passes against both. Top-1 agreement is higher and p99 KL lower on every set; a book-level interval for PG19 agrees. Full table: [results/release-gate.md](results/release-gate.md).
+
+Speed and tasks ([results/checks-v1.md](results/checks-v1.md)): generation runs at about 81–87 tokens/s for all files on Metal, and HellaSwag (1,000 tasks) gives 55.9% for ours, 55.1% for bloomer010 and 54.5% for bartowski, no difference beyond noise. A first loop check found no repetition loops; longer-generation checks will follow.
 
 ## Allocation and refinement
 
@@ -51,7 +57,12 @@ We chose m2 from four candidates measured on the first 16 wiki chunks; eval-ood 
 The refiner keeps every block scale and re-chooses each low-bit grid code to minimise an estimate of expert-output error on calibration inputs (input Gram matrices from 400 × 512 tokens of mixed text), so types and byte counts stay the same.
 
 - Gate T, experts only on a Q8_0 base (`results/gate-t.md`, 64 × 512): IQ3_XXS ratio 0.818 (wiki) and 0.804 (ood), IQ2_XXS 0.785 and 0.781, every paired interval below zero. PASS.
-- m2 with refined experts (m2r) and with refined KDA gates (m2rd): TBD (release gate run list). Figure B (`figures/ladder-*.png`) renders once these 64-chunk runs exist.
+- m2 with refined experts (m2r, the released file), 64 × 512: ratio 0.874 [0.853, 0.896] on wiki.test and 0.867 [0.839, 0.896] on eval-ood. Refining the KDA gates on top (m2rd) gave no gain beyond noise, so it was not adopted.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="figures/ladder-dark.png">
+  <img alt="KL from bloomer010's IQ3_XXS to our mix to our mix with refined experts, on two selection sets: wiki 0.50, 0.40, 0.35; held-out 0.34, 0.23, 0.20." src="figures/ladder-light.png">
+</picture>
 
 ### Refined codes on a public file (twin test)
 
@@ -92,7 +103,7 @@ Details, evidence and the cost model: [results/findings.md](results/findings.md)
 | `tests/` | Tests for the refiner |
 | `CHANGELOG.md` | Dated log and registrations |
 
-Not in git: model files (`models/`), calibration and eval text (`data/`), logs and per-token dumps (`logs/`, `runs/`), the llama.cpp clone (`vendor/`). The scripts rebuild them; the data recipes, book ids and hashes are TBD (release gate).
+Not in git: model files (`models/`), calibration and eval text (`data/`), logs and per-token dumps (`logs/`, `runs/`), the llama.cpp clone (`vendor/`). The release test sets come from public sources (Chinese Wikipedia, llama.cpp source, Hermes function-calling chats, four PG19 books); the script that builds them, with hashes and book ids, is part of our Ling-3.2-air study and will be published with it.
 
 ## Patches
 
@@ -112,7 +123,7 @@ IMATRIX=<imatrix.gguf> EVAL=<text> sh scripts/ablate.sh <name> <base_type> 'rege
 sh scripts/gate_t.sh build U3 && sh scripts/gate_t.sh base        # gate T builds and BF16 bases
 sh scripts/twin_chain.sh                                          # twin, m2r and cheap modes
 .venv/bin/python -I scripts/gate_t_report.py > results/gate-t.md
-# release gate scoring commands: TBD (release gate); dumps go to runs/release/NAME-SET.f32, logs to logs/rg-kld-*.log
+sh scripts/release_score.sh                                        # release-gate scoring; dumps in runs/release/
 .venv/bin/python -I scripts/release_gate_report.py --gguf cand=<release.gguf> bartowski=<Q2_K_L.gguf> > results/release-gate.md
 .venv/bin/python -I scripts/gguf_layout.py <release.gguf> results/layout-release.tsv
 .venv/bin/python -I scripts/refine_record.py models/ling-3.0-tiny-m2.gguf <release.gguf> results/refinement-release.json
@@ -126,4 +137,4 @@ Checks: `.venv/bin/python -I -m pytest -q tests` and `.venv/bin/python scripts/t
 
 ## Status
 
-This is a proof of concept, not a result about Ling-3.2-air. KL against BF16 measures closeness to the original model, not task quality; a HellaSwag check and a loop check are proposed, not run. Everything ran on one machine, at one engine commit, with one calibration text. Code license: TBD. Changes and registrations: [CHANGELOG.md](CHANGELOG.md).
+v1.0 is released. KL against BF16 measures closeness to the original model; HellaSwag is the one task check so far. Everything ran on one machine, at one engine commit, with one calibration text. The findings for Ling-3.2-air are pilot results, not results about that model. Changes and registrations: [CHANGELOG.md](CHANGELOG.md).

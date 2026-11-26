@@ -1,6 +1,6 @@
 # Design style for Ling cards and figures
 
-Taken from Daniel's Ling-3.2-air pre-registration page (25 Nov 2026), which echoes inclusionAI's visual identity.
+Taken from our earlier Ling design page, which echoes inclusionAI's visual identity.
 
 - Type: Red Hat Display 700 for titles and figure headings, Red Hat Text 400/500 for body and labels (matplotlib: install-free fallback DejaVu Sans if the fonts are not available; say so).
 - Title band: oxford blue gradient `linear-gradient(135deg, #081a52 0%, #16257a 55%, #33237e 100%)`, white text, meta text `#c9d3ef`, links `#8fe0ff`.
