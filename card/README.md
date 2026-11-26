@@ -36,8 +36,8 @@ None of the three files was tuned on these texts. We fixed the test and its pass
 
 ## How it was made
 
-- Bits where they matter: we quantized one part of the model at a time and measured the damage. The routed experts tolerate low bits best, per GB saved; attention and the shared expert do not. So the experts stay at IQ3_XXS and the saved space goes to attention.
-- Refined expert codes: our refiner re-chooses each low-bit code so the experts' outputs stay closer to the original, without changing size or tensor types. On its own it lowered KL by 12–13%.
+1. Bits where they matter: we quantized one part of the model at a time and measured the damage. The routed experts tolerate low bits best, per GB saved; attention and the shared expert do not. So the experts stay at IQ3_XXS and the saved space goes to attention.
+2. Refined expert codes: our refiner re-chooses each low-bit code so the experts' outputs stay closer to the original, without changing size or tensor types. On its own it lowered KL by 12–13%.
 
 ![KL from bloomer010's IQ3_XXS to our mix to our mix with refined experts, on two selection sets: wiki 0.50, 0.40, 0.35; held-out 0.34, 0.23, 0.20.](figures/ladder-light.png)
 
