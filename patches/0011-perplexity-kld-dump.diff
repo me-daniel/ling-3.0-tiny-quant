@@ -1,0 +1,18 @@
+diff --git a/tools/perplexity/perplexity.cpp b/tools/perplexity/perplexity.cpp
+index 601361acd..92ac8a16f 100644
+--- a/tools/perplexity/perplexity.cpp
++++ b/tools/perplexity/perplexity.cpp
+@@ -1886,6 +1886,13 @@ static void kl_divergence(llama_context * ctx, const common_params & params) {
+ 
+     if (kld.count < 100) return; // we do not wish to do statistics on so few values
+ 
++    if (const char * dump = getenv("KLD_DUMP")) { // per-token KL in scoring order (n_chunk x (n_ctx - 1 - n_ctx/2)), raw f32
++        FILE * fd = fopen(dump, "wb");
++        GGML_ASSERT(fd && fwrite(kld_values.data(), sizeof(float), kld_values.size(), fd) == kld_values.size());
++        fclose(fd);
++        LOG("KLD_DUMP: wrote %zu values to %s\n", kld_values.size(), dump);
++    }
++
+     std::sort(kld_values.begin(), kld_values.end());
+     std::sort(p_diff_values.begin(), p_diff_values.end());
+ 

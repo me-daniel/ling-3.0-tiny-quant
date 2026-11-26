@@ -1,0 +1,10 @@
+# Figure concept for the Ling-3.0-tiny card (25 Nov 2026)
+
+Story: one 3.1 GB file, no larger than bloomer010 IQ3_XXS (the most-downloaded 3-bit file), closer to BF16 on four held-out sets than it and bartowski Q2_K_L; the gain comes from allocation plus expert codes re-chosen at equal bytes and speed.
+
+- Banner: 24-layer stack of the released file on the oxford band (KDA sky, MLA layers 3, 7, 11, 15, 19, 23 gradient, layer 0 dense slate), byte-share bar by tensor group with types; the expert segment outlined warm, "codes refined". Source: release GGUF header dumped to TSV.
+- A (hero, HF + GitHub) `release-gate`: rows zh/code/tool at 512 and PG19 at 4,096; left panel mean KL per file from 0 with the Q8_0 floor tick; right panel candidate − comparator with paired 95% CI and zero line. Source `results/release-gate.tsv` (set, ctx, chunks, file, bytes, mean_kl, p99, top1, diff, ci_lo, ci_hi) from per-token dumps. Ours filled circle #4a63ff, bloomer010 hollow circle #7f93c9, bartowski hollow square #4a5470; bytes as direct labels; warm only for PASS/FAIL.
+- B (HF + GitHub) `ladder`: bloomer010 IQ3_XXS → m2 → m2r (→ m2rd if adopted), wiki512 and ood512 lines, absolute KL from 0, paired delta per segment; allocation segment slate, refinement gradient; subtitle "selection sets, not the release test". Source: 64-chunk dumps only.
+- C (GitHub only) `sensitivity`: 10 groups, x = MB saved at IQ2_XXS (log, stated), y = ΔKLD ± SE from `results/ablations.tsv` (g_*_iq2_xxs vs q8_all); KDA sky with outline, MLA gradient, experts/dense slate; marker shape per family; m2's type as a second label line.
+- Themes: opaque backgrounds; `--theme light|dark`; PNG 200 dpi + SVG with text as paths; GitHub `<picture>` with prefers-color-scheme; HF light PNG (check `<picture>` on the private card).
+- Pitfalls: never mix chunk counts on one axis; plot absolute KL, ratios in text; draw paired differences, not overlapping per-file bars; KL axes from 0 with the floor visible; no pooling of 512 and 4,096 sets; state bytes; a failed set keeps its row; shape/fill repeat colour, direct labels, alt text with numbers; outline pale colours.

@@ -1,0 +1,10 @@
+# Statistics spec for the card figures (25 Nov 2026)
+
+- Chunk means: reshape each f32 per-token dump to (chunks, n), n = ctx − 1 − ctx//2 (255 at 512, 2,047 at 4,096); abort if not a multiple. Plotted mean KL = mean of chunk means (= token mean, equal chunks). p99 over pooled tokens.
+- CI: exactly `boot()` in `scripts/gate_t_report.py`: fresh `default_rng(0)`, `integers(0, C, (10000, C))`, paired differences of chunk means, percentiles 2.5/97.5.
+- Q8_0 floor: tick at Q8_0's mean KL on the same base, set and chunks; no CI. Needs a Q8_0 run on the release sets (added to the gate run list before data).
+- A: right panel = absolute difference candidate − comparator with the 8 unadjusted 95% CIs (the all-sets rule is an intersection–union test, so no Bonferroni). PASS per comparator: all 4 sets diff < 0 and ci_hi < 0, and candidate bytes ≤ comparator bytes. Left panel: means only, no per-file CIs. PG19 one row of 32 chunks (4 books × 8); book-stratified interval reported in text.
+- B: bloomer010, m2, m2r (, m2rd) paired per set on 64-chunk dumps only; one CI per adjacent segment per set; mark the m2r rule (ratio ≤ 0.90 and CI < 0) and the m2rd adoption rule. Caption: "Selection sets (wiki.test, eval-ood; 64 × 512). m2 and the refiner settings were chosen on these texts, so these gaps are optimistic and are not the release result; see Figure A." The bloomer→m2 segment is selection-biased (m2 picked on the first 16 wiki chunks).
+- C: ΔKLD = mean_kld − 0.007487 (q8_all); bars ±(kld_se_g + 0.000368), labelled "upper bound on the token-level SE of the difference; tokens treated as independent, 16 chunks". x = (8,408,187,872 − bytes)/1e6 MB, log 0.05–10,000 (mla_gate 0.118 MB). Caption "wiki.test 16 × 512, one group at IQ2_XXS on Q8_0; selection-era data".
+- Alt text and captions carry the numbers. Rounding: KL 3 significant digits, CI bounds to the same decimals, signed differences, top-1 2 decimals, bytes exact, decimal GB 2 places.
+- The story sentence "closer on four held-out sets" is written only after the gate has run.

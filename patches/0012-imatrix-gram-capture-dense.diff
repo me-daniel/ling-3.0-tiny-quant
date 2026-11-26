@@ -1,0 +1,167 @@
+Cumulative on c661033: patch 0010 (expert Grams) plus dense MUL_MAT Grams. Apply instead of 0010, not on top.
+diff --git a/tools/imatrix/CMakeLists.txt b/tools/imatrix/CMakeLists.txt
+index 361c4577d..655046957 100644
+--- a/tools/imatrix/CMakeLists.txt
++++ b/tools/imatrix/CMakeLists.txt
+@@ -2,6 +2,9 @@ set(TARGET llama-imatrix)
+ add_executable(${TARGET} imatrix.cpp)
+ target_link_libraries(${TARGET} PRIVATE llama-common llama ${CMAKE_THREAD_LIBS_INIT})
+ target_compile_features(${TARGET} PRIVATE cxx_std_17)
++if (APPLE)
++    target_link_libraries(${TARGET} PRIVATE "-framework Accelerate")
++endif()
+ 
+ if(LLAMA_TOOLS_INSTALL)
+     install(TARGETS ${TARGET} RUNTIME)
+diff --git a/tools/imatrix/imatrix.cpp b/tools/imatrix/imatrix.cpp
+index 7abd83ead..f0114549f 100644
+--- a/tools/imatrix/imatrix.cpp
++++ b/tools/imatrix/imatrix.cpp
+@@ -17,6 +17,14 @@
+ #include <set>
+ #include <thread>
+ #include <unordered_map>
++#include <regex>
++#include <cstdlib>
++#include <cstdio>
++
++#ifdef __APPLE__
++#define ACCELERATE_NEW_LAPACK
++#include <Accelerate/Accelerate.h>
++#endif
+ 
+ #if defined(_MSC_VER)
+ #pragma warning(disable: 4244 4267) // possible loss of data
+@@ -76,7 +84,37 @@ public:
+     const std::unordered_map<std::string, Stats> & get_mstats() const { return m_stats; }
+     void set_n_layer_nextn(int32_t n_layer_nextn) { m_n_layer_nextn = n_layer_nextn; }
+     int32_t get_n_layer_nextn() const { return m_n_layer_nextn; }
++    void save_grams();
+ private:
++    // GRAM_DIR / GRAM_MATCH: full per-expert input Gram X^T X for matching MUL_MAT_ID weights (and, patch 0012,
++    // one per 2D matrix for matching dense MUL_MAT weights), pooled over all
++    // visits of a layer (for GPTQ-style rounding). Upper triangle only; raw f32 [n_as][ne0][ne0] plus int64 counts.
++    struct Gram { int64_t ne0 = 0; std::vector<float> g; std::vector<int64_t> n; std::vector<std::vector<float>> pend; };
++    // rows wait per expert until GRAM_FLUSH (default 256) of them can go into one ssyrk: a call carries only about
++    // 32 rows per expert, and updating the whole ne0^2 triangle for so few rows is bound by memory traffic
++    static void gram_flush(Gram & gr, int64_t ex) {
++#ifdef __APPLE__
++        auto & p = gr.pend[ex];
++        const int64_t k = (int64_t) (p.size() / gr.ne0);
++        if (k == 0) { return; }
++        cblas_ssyrk(CblasRowMajor, CblasUpper, CblasTrans, (int) gr.ne0, (int) k, 1.0f, p.data(), (int) gr.ne0,
++                    1.0f, gr.g.data() + (size_t) ex * gr.ne0 * gr.ne0, (int) gr.ne0);
++        gr.n[ex] += k;
++        p.clear();
++#endif
++    }
++    std::unordered_map<std::string, Gram>   m_grams;
++    int                                     m_gram_on = -1; // -1: env not read yet
++    std::regex                              m_gram_re;
++    bool gram_wanted(const std::string & wname) {
++        if (m_gram_on < 0) {
++            const char * dir = getenv("GRAM_DIR");
++            const char * re  = getenv("GRAM_MATCH");
++            m_gram_on = dir && re ? 1 : 0;
++            if (m_gram_on) { m_gram_re = std::regex(re); }
++        }
++        return m_gram_on == 1 && std::regex_search(wname, m_gram_re);
++    }
+     std::unordered_map<std::string, Stats>  m_stats;
+     common_params                           m_params;
+     std::mutex                              m_mutex;
+@@ -91,6 +129,22 @@ private:
+     }
+ };
+ 
++void IMatrixCollector::save_grams() {
++    const char * dir = getenv("GRAM_DIR");
++    if (!dir) { return; }
++    for (auto & [name, gr] : m_grams) {
++        for (int64_t ex = 0; ex < (int64_t) gr.pend.size(); ++ex) { gram_flush(gr, ex); }
++        const std::string base = std::string(dir) + "/" + name;
++        FILE * f = fopen((base + ".gram.f32").c_str(), "wb");
++        FILE * c = fopen((base + ".gram.counts.i64").c_str(), "wb");
++        GGML_ASSERT(f && c);
++        GGML_ASSERT(fwrite(gr.g.data(), sizeof(float), gr.g.size(), f) == gr.g.size());
++        GGML_ASSERT(fwrite(gr.n.data(), sizeof(int64_t), gr.n.size(), c) == gr.n.size());
++        fclose(f); fclose(c);
++        LOG_INF("%s: wrote %s.gram.f32 (%zu experts x %lld^2)\n", __func__, base.c_str(), gr.n.size(), (long long) gr.ne0);
++    }
++}
++
+ // remove any prefix and suffixes from the name
+ // CUDA0#blk.0.attn_k.weight#0 => blk.0.attn_k.weight
+ static std::string filter_tensor_name(const char * name) {
+@@ -663,6 +717,28 @@ bool IMatrixCollector::collect_imatrix(struct ggml_tensor * t, bool ask, void *
+             }
+         }
+ 
++#ifdef __APPLE__
++        if (gram_wanted(wname)) {
++            auto & gr = m_grams[wname];
++            if (gr.g.empty()) {
++                gr.ne0 = ne0;
++                gr.g.assign((size_t) n_as * ne0 * ne0, 0.0f);
++                gr.n.assign(n_as, 0);
++            }
++            if (gr.pend.empty()) { gr.pend.resize(n_as); }
++            static const int64_t flush_at = getenv("GRAM_FLUSH") ? atoll(getenv("GRAM_FLUSH")) : 256;
++            for (int64_t idx = 0; idx < n_ids; ++idx) {
++                for (int64_t row = 0; row < n_tokens; ++row) {
++                    const int32_t ex = *(const int32_t *) (m_ids.data() + row * ids->nb[1] + idx * ids->nb[0]);
++                    const float * x = (const float *) (data + (idx % src1->ne[1]) * src1->nb[1] + row * src1->nb[2]);
++                    auto & p = gr.pend[ex];
++                    p.insert(p.end(), x, x + ne0);
++                    if ((int64_t) (p.size() / ne0) >= flush_at) { gram_flush(gr, ex); }
++                }
++            }
++        }
++#endif
++
+         // check for non-finite values, only checking experts that were routed to and touched
+         for (int64_t ex = 0; ex < n_as; ++ex) {
+             if (touched[ex] && !all_finite(e.values.data() + ex * ne0, ne0)) {
+@@ -733,6 +809,34 @@ bool IMatrixCollector::collect_imatrix(struct ggml_tensor * t, bool ask, void *
+             }
+         }
+ 
++#ifdef __APPLE__
++        // GRAM_DIR / GRAM_MATCH for dense MUL_MAT weights (patch 0012): one full input Gram per 2D matrix of the
++        // weight (n_mat = ne2 * ne3, usually 1), same file layout as the expert Grams: f32 [n_mat][ne0][ne0], upper
++        // triangle, plus int64 [n_mat] row counts. Rows of 3D+ activations are pooled into their matrix as above.
++        if (gram_wanted(wname)) {
++            auto & gr = m_grams[wname];
++            if (gr.g.empty()) {
++                gr.ne0 = ne0;
++                gr.g.assign((size_t) n_mat * ne0 * ne0, 0.0f);
++                gr.n.assign(n_mat, 0);
++            }
++            GGML_ASSERT(gr.ne0 == ne0 && (int64_t) gr.n.size() == n_mat && "Gram: tensor used with another shape");
++            if (gr.pend.empty()) { gr.pend.resize(n_mat); }
++            static const int64_t flush_dense = getenv("GRAM_FLUSH") ? atoll(getenv("GRAM_FLUSH")) : 256;
++            for (int64_t i3 = 0; i3 < src1->ne[3]; ++i3) {
++                for (int64_t i2 = 0; i2 < src1->ne[2]; ++i2) {
++                    const int64_t mat_id = (i3 % src0->ne[3]) * src0->ne[2] + (i2 % src0->ne[2]);
++                    auto & p = gr.pend[mat_id];
++                    for (int64_t row = 0; row < src1->ne[1]; ++row) {
++                        const float * x = (const float *) (data + row * src1->nb[1] + i2 * src1->nb[2] + i3 * src1->nb[3]);
++                        p.insert(p.end(), x, x + ne0);
++                        if ((int64_t) (p.size() / ne0) >= flush_dense) { gram_flush(gr, mat_id); }
++                    }
++                }
++            }
++        }
++#endif
++
+         // check for non-finite values
+         if (!all_finite(e.values.data(), e.values.size())) {
+             LOG_ERR("%s: non-finite values detected in %s\n", __func__, wname.c_str());
+@@ -2038,6 +2142,7 @@ int main(int argc, char ** argv) {
+     if (!compute_imatrix(ctx, params, n_ctx, nextn.get())) { return 1; }
+ 
+     g_collector.save_imatrix();
++    g_collector.save_grams();
+ 
+     LOG("\n");
+     llama_perf_context_print(ctx);

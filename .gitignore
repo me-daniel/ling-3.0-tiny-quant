@@ -1,0 +1,61 @@
+# --- Secrets & credentials ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*service-account*.json
+.secrets/
+
+# --- Local assistant config ---
+CLAUDE.md
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/handoff.md
+.claude/handoff.pending
+.mcp.json
+
+# --- Model weights and run output (large, rebuilt locally) ---
+models/
+*.gguf
+*.safetensors
+runs/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# --- Vendored tools (pinned clone, built locally) ---
+vendor/
+logs/
+data/
+scratch/
+
+# --- Figure layout checks with synthetic data (never published) ---
+figures/demo/
+
+# --- Local working files ---
+reviews/
+scripts/codex-research.sh
+
+# --- Agent tooling (local only) ---
+.claude/

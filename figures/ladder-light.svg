@@ -1,0 +1,3791 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="403.2pt" viewBox="0 0 648 403.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-26T00:45:20.364370</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 403.2 
+L 648 403.2 
+L 648 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 64.8 322.56 
+L 628.56 322.56 
+L 628.56 84.672 
+L 64.8 84.672 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mc8b3390213" d="M 0 0 
+L 0 3.5 
+" style="stroke: #4a5470; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mc8b3390213" x="191.014925" y="322.56" style="fill: #4a5470; stroke: #4a5470; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- bloomer010 -->
+      <g style="fill: #0b1020" transform="translate(164.329769 339.74) scale(0.1 -0.1)">
+       <defs>
+        <path id="RedHatText-Regular-89" d="M 480 0 
+L 480 4576 
+L 947 4672 
+L 947 2694 
+Q 1126 2918 1382 3040 
+Q 1638 3162 1952 3162 
+Q 2362 3162 2685 2947 
+Q 3008 2733 3200 2371 
+Q 3392 2010 3392 1562 
+Q 3392 1114 3197 749 
+Q 3002 384 2672 169 
+Q 2342 -45 1926 -45 
+Q 1632 -45 1379 73 
+Q 1126 192 941 410 
+L 941 0 
+L 480 0 
+z
+M 1837 358 
+Q 2150 358 2396 515 
+Q 2643 672 2787 944 
+Q 2931 1216 2931 1555 
+Q 2931 1901 2787 2169 
+Q 2643 2438 2396 2595 
+Q 2150 2752 1837 2752 
+Q 1562 2752 1328 2640 
+Q 1094 2528 947 2323 
+L 947 794 
+Q 1101 589 1334 473 
+Q 1568 358 1837 358 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-b9" d="M 480 0 
+L 480 4621 
+L 947 4717 
+L 947 0 
+L 480 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-c5" d="M 1856 -51 
+Q 1427 -51 1081 160 
+Q 736 371 537 736 
+Q 339 1101 339 1562 
+Q 339 2022 537 2387 
+Q 736 2752 1081 2963 
+Q 1427 3174 1856 3174 
+Q 2291 3174 2633 2963 
+Q 2976 2752 3174 2387 
+Q 3373 2022 3373 1562 
+Q 3373 1101 3174 736 
+Q 2976 371 2633 160 
+Q 2291 -51 1856 -51 
+z
+M 1856 358 
+Q 2163 358 2400 515 
+Q 2637 672 2774 947 
+Q 2912 1222 2912 1562 
+Q 2912 1907 2774 2179 
+Q 2637 2451 2400 2608 
+Q 2163 2765 1856 2765 
+Q 1549 2765 1312 2608 
+Q 1075 2451 937 2179 
+Q 800 1907 800 1562 
+Q 800 1222 937 947 
+Q 1075 672 1312 515 
+Q 1549 358 1856 358 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-be" d="M 480 0 
+L 480 3123 
+L 947 3123 
+L 947 2637 
+Q 1126 2906 1356 3040 
+Q 1587 3174 1875 3174 
+Q 2208 3174 2457 3011 
+Q 2707 2848 2835 2566 
+Q 3021 2867 3280 3020 
+Q 3539 3174 3878 3174 
+Q 4192 3174 4432 3027 
+Q 4672 2880 4806 2621 
+Q 4941 2362 4941 2016 
+L 4941 0 
+L 4474 0 
+L 4474 1901 
+Q 4474 2310 4269 2547 
+Q 4064 2784 3706 2784 
+Q 3462 2784 3267 2662 
+Q 3072 2541 2925 2291 
+Q 2938 2227 2944 2156 
+Q 2950 2086 2950 2016 
+L 2950 0 
+L 2483 0 
+L 2483 1901 
+Q 2483 2310 2275 2547 
+Q 2067 2784 1709 2784 
+Q 1229 2784 947 2323 
+L 947 0 
+L 480 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-94" d="M 1888 -64 
+Q 1453 -64 1101 150 
+Q 749 365 544 733 
+Q 339 1101 339 1562 
+Q 339 2022 534 2387 
+Q 730 2752 1062 2963 
+Q 1395 3174 1811 3174 
+Q 2221 3174 2544 2966 
+Q 2867 2758 3056 2403 
+Q 3245 2048 3245 1600 
+L 3245 1459 
+L 794 1459 
+Q 819 1139 969 886 
+Q 1120 634 1366 490 
+Q 1613 346 1907 346 
+Q 2150 346 2377 432 
+Q 2605 518 2765 666 
+L 3059 352 
+Q 2790 141 2502 38 
+Q 2214 -64 1888 -64 
+z
+M 806 1792 
+L 2784 1792 
+Q 2752 2074 2614 2294 
+Q 2477 2515 2269 2643 
+Q 2061 2771 1805 2771 
+Q 1549 2771 1337 2646 
+Q 1126 2522 988 2301 
+Q 851 2080 806 1792 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-d3" d="M 480 0 
+L 480 3123 
+L 947 3123 
+L 947 2483 
+Q 1069 2810 1296 2992 
+Q 1523 3174 1818 3174 
+Q 1901 3174 1971 3164 
+Q 2042 3155 2112 3130 
+L 2112 2707 
+Q 2035 2733 1948 2749 
+Q 1862 2765 1786 2765 
+Q 1498 2765 1283 2598 
+Q 1069 2432 947 2131 
+L 947 0 
+L 480 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-17c" d="M 2112 -70 
+Q 1600 -70 1206 224 
+Q 813 518 589 1040 
+Q 365 1562 365 2240 
+Q 365 2925 589 3443 
+Q 813 3962 1206 4256 
+Q 1600 4550 2112 4550 
+Q 2624 4550 3017 4256 
+Q 3411 3962 3635 3443 
+Q 3859 2925 3859 2240 
+Q 3859 1562 3635 1040 
+Q 3411 518 3017 224 
+Q 2624 -70 2112 -70 
+z
+M 2112 346 
+Q 2502 346 2787 579 
+Q 3072 813 3232 1238 
+Q 3392 1664 3392 2240 
+Q 3392 2816 3232 3241 
+Q 3072 3667 2787 3900 
+Q 2502 4134 2112 4134 
+Q 1728 4134 1440 3900 
+Q 1152 3667 992 3241 
+Q 832 2816 832 2240 
+Q 832 1664 992 1238 
+Q 1152 813 1440 579 
+Q 1728 346 2112 346 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-17d" d="M 979 0 
+L 979 3981 
+L 262 3661 
+L 262 4083 
+L 1152 4480 
+L 1440 4480 
+L 1440 0 
+L 979 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#RedHatText-Regular-89"/>
+       <use xlink:href="#RedHatText-Regular-b9" transform="translate(58.296875 0)"/>
+       <use xlink:href="#RedHatText-Regular-c5" transform="translate(80.59375 0)"/>
+       <use xlink:href="#RedHatText-Regular-c5" transform="translate(138.59375 0)"/>
+       <use xlink:href="#RedHatText-Regular-be" transform="translate(196.59375 0)"/>
+       <use xlink:href="#RedHatText-Regular-94" transform="translate(281.09375 0)"/>
+       <use xlink:href="#RedHatText-Regular-d3" transform="translate(336.796875 0)"/>
+       <use xlink:href="#RedHatText-Regular-17c" transform="translate(372 0)"/>
+       <use xlink:href="#RedHatText-Regular-17d" transform="translate(437 0)"/>
+       <use xlink:href="#RedHatText-Regular-17c" transform="translate(467.703125 0)"/>
+      </g>
+      <!-- IQ3_XXS -->
+      <g style="fill: #0b1020" transform="translate(170.684457 352.97) scale(0.1 -0.1)">
+       <defs>
+        <path id="RedHatText-Regular-2a" d="M 563 0 
+L 563 4480 
+L 1056 4480 
+L 1056 0 
+L 563 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-52" d="M 4115 -154 
+L 3763 269 
+Q 3507 109 3212 19 
+Q 2918 -70 2592 -70 
+Q 2125 -70 1721 106 
+Q 1318 282 1014 598 
+Q 710 915 537 1334 
+Q 365 1754 365 2240 
+Q 365 2726 537 3145 
+Q 710 3565 1014 3881 
+Q 1318 4198 1721 4374 
+Q 2125 4550 2592 4550 
+Q 3059 4550 3462 4374 
+Q 3866 4198 4170 3881 
+Q 4474 3565 4646 3145 
+Q 4819 2726 4819 2240 
+Q 4819 1734 4627 1292 
+Q 4435 851 4109 538 
+L 4621 -83 
+L 4115 -154 
+z
+M 2592 378 
+Q 2835 378 3056 442 
+Q 3277 506 3469 621 
+L 2816 1395 
+L 3322 1472 
+L 3802 896 
+Q 4045 1152 4182 1494 
+Q 4320 1837 4320 2240 
+Q 4320 2637 4189 2973 
+Q 4058 3309 3821 3565 
+Q 3584 3821 3270 3961 
+Q 2957 4102 2592 4102 
+Q 2227 4102 1913 3961 
+Q 1600 3821 1363 3565 
+Q 1126 3309 995 2973 
+Q 864 2637 864 2240 
+Q 864 1850 995 1510 
+Q 1126 1171 1363 915 
+Q 1600 659 1913 518 
+Q 2227 378 2592 378 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-17f" d="M 1830 -70 
+Q 1370 -70 970 90 
+Q 570 250 262 563 
+L 570 864 
+Q 851 582 1148 457 
+Q 1446 333 1824 333 
+Q 2150 333 2403 448 
+Q 2656 563 2797 768 
+Q 2938 973 2938 1235 
+Q 2938 1485 2813 1680 
+Q 2688 1875 2470 1984 
+Q 2253 2093 1971 2093 
+L 1440 2093 
+L 1440 2490 
+L 1952 2490 
+Q 2317 2490 2544 2714 
+Q 2771 2938 2771 3296 
+Q 2771 3533 2643 3725 
+Q 2515 3917 2294 4029 
+Q 2074 4141 1798 4141 
+Q 1453 4141 1181 4016 
+Q 909 3891 627 3597 
+L 320 3904 
+Q 621 4224 998 4387 
+Q 1376 4550 1805 4550 
+Q 2214 4550 2537 4390 
+Q 2861 4230 3046 3952 
+Q 3232 3674 3232 3322 
+Q 3232 2970 3001 2691 
+Q 2771 2413 2394 2304 
+Q 2848 2202 3123 1907 
+Q 3398 1613 3398 1222 
+Q 3398 851 3196 556 
+Q 2995 262 2640 96 
+Q 2285 -70 1830 -70 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-120" d="M -6 -877 
+L -6 -512 
+L 2931 -512 
+L 2931 -877 
+L -6 -877 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-74" d="M 70 0 
+L 1798 2317 
+L 179 4480 
+L 768 4480 
+L 2106 2682 
+L 3430 4480 
+L 4006 4480 
+L 2387 2310 
+L 4115 0 
+L 3520 0 
+L 2086 1952 
+L 646 0 
+L 70 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-57" d="M 2016 -70 
+Q 1491 -70 1043 118 
+Q 595 307 179 691 
+L 480 1050 
+Q 883 672 1238 512 
+Q 1594 352 2029 352 
+Q 2374 352 2646 470 
+Q 2918 589 3072 793 
+Q 3226 998 3226 1261 
+Q 3226 1600 3002 1776 
+Q 2778 1952 2227 2048 
+L 1504 2170 
+Q 890 2278 605 2544 
+Q 320 2810 320 3258 
+Q 320 3635 515 3926 
+Q 710 4218 1056 4384 
+Q 1402 4550 1856 4550 
+Q 2355 4550 2784 4412 
+Q 3213 4275 3629 3981 
+L 3373 3597 
+Q 3027 3859 2643 3996 
+Q 2259 4134 1862 4134 
+Q 1549 4134 1309 4025 
+Q 1069 3917 931 3731 
+Q 794 3546 794 3309 
+Q 794 3014 992 2848 
+Q 1190 2682 1638 2611 
+L 2355 2490 
+Q 3072 2362 3395 2077 
+Q 3718 1792 3718 1286 
+Q 3718 896 3497 589 
+Q 3277 282 2893 106 
+Q 2509 -70 2016 -70 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#RedHatText-Regular-2a"/>
+       <use xlink:href="#RedHatText-Regular-52" transform="translate(25.296875 0)"/>
+       <use xlink:href="#RedHatText-Regular-17f" transform="translate(106.296875 0)"/>
+       <use xlink:href="#RedHatText-Regular-120" transform="translate(166.296875 0)"/>
+       <use xlink:href="#RedHatText-Regular-74" transform="translate(212 0)"/>
+       <use xlink:href="#RedHatText-Regular-74" transform="translate(278.90625 0)"/>
+       <use xlink:href="#RedHatText-Regular-57" transform="translate(344.3125 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mc8b3390213" x="359.301493" y="322.56" style="fill: #4a5470; stroke: #4a5470; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- m2 -->
+      <g style="fill: #0b1020" transform="translate(352.076493 339.74) scale(0.1 -0.1)">
+       <defs>
+        <path id="RedHatText-Regular-17e" d="M 474 0 
+L 474 339 
+L 2266 2298 
+Q 2477 2528 2595 2704 
+Q 2714 2880 2762 3033 
+Q 2810 3187 2810 3360 
+Q 2810 3699 2544 3920 
+Q 2278 4141 1869 4141 
+Q 1555 4141 1286 4019 
+Q 1018 3898 685 3597 
+L 416 3917 
+Q 768 4237 1126 4393 
+Q 1485 4550 1875 4550 
+Q 2278 4550 2592 4400 
+Q 2906 4250 3085 3987 
+Q 3264 3725 3264 3386 
+Q 3264 3162 3206 2973 
+Q 3149 2784 3001 2569 
+Q 2854 2355 2579 2054 
+L 1050 397 
+L 3360 403 
+L 3360 0 
+L 474 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#RedHatText-Regular-be"/>
+       <use xlink:href="#RedHatText-Regular-17e" transform="translate(84.5 0)"/>
+      </g>
+      <!-- (Daniel's mix) -->
+      <g style="fill: #0b1020" transform="translate(329.061649 352.97) scale(0.1 -0.1)">
+       <defs>
+        <path id="RedHatText-Regular-125" d="M 1997 -1402 
+Q 1510 -1094 1171 -649 
+Q 832 -205 656 358 
+Q 480 922 480 1574 
+Q 480 2234 656 2797 
+Q 832 3360 1171 3805 
+Q 1510 4250 1997 4557 
+L 2240 4230 
+Q 1613 3840 1270 3149 
+Q 928 2458 928 1574 
+Q 928 691 1270 0 
+Q 1613 -691 2240 -1082 
+L 1997 -1402 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-13" d="M 1062 442 
+L 2086 442 
+Q 2573 442 2957 678 
+Q 3341 915 3568 1321 
+Q 3795 1728 3795 2240 
+Q 3795 2752 3568 3158 
+Q 3341 3565 2957 3801 
+Q 2573 4038 2086 4038 
+L 1062 4038 
+L 1062 442 
+z
+M 570 0 
+L 570 4480 
+L 2054 4480 
+Q 2547 4480 2960 4310 
+Q 3373 4141 3670 3837 
+Q 3968 3533 4131 3126 
+Q 4294 2720 4294 2240 
+Q 4294 1760 4131 1353 
+Q 3968 947 3670 643 
+Q 3373 339 2960 169 
+Q 2547 0 2054 0 
+L 570 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-7e" d="M 1446 -58 
+Q 1114 -58 858 64 
+Q 602 186 458 400 
+Q 314 614 314 896 
+Q 314 1178 461 1386 
+Q 608 1594 870 1709 
+Q 1133 1824 1485 1824 
+Q 1754 1824 1994 1766 
+Q 2234 1709 2438 1581 
+L 2438 2010 
+Q 2438 2394 2233 2589 
+Q 2029 2784 1632 2784 
+Q 1414 2784 1187 2720 
+Q 960 2656 685 2515 
+L 512 2874 
+Q 1139 3174 1690 3174 
+Q 2272 3174 2585 2889 
+Q 2899 2605 2899 2074 
+L 2899 0 
+L 2438 0 
+L 2438 365 
+Q 2234 154 1984 48 
+Q 1734 -58 1446 -58 
+z
+M 762 909 
+Q 762 634 976 467 
+Q 1190 301 1542 301 
+Q 1805 301 2025 390 
+Q 2246 480 2438 659 
+L 2438 1261 
+Q 2240 1376 2029 1430 
+Q 1818 1485 1555 1485 
+Q 1197 1485 979 1328 
+Q 762 1171 762 909 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-bf" d="M 480 0 
+L 480 3123 
+L 947 3123 
+L 947 2618 
+Q 1126 2899 1376 3036 
+Q 1626 3174 1939 3174 
+Q 2278 3174 2531 3030 
+Q 2784 2886 2928 2627 
+Q 3072 2368 3072 2022 
+L 3072 0 
+L 2605 0 
+L 2605 1888 
+Q 2605 2304 2377 2544 
+Q 2150 2784 1766 2784 
+Q 1510 2784 1299 2662 
+Q 1088 2541 947 2304 
+L 947 0 
+L 480 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-a7" d="M 474 0 
+L 474 3123 
+L 941 3123 
+L 941 0 
+L 474 0 
+z
+M 710 3898 
+Q 570 3898 470 3997 
+Q 371 4096 371 4230 
+Q 371 4365 470 4464 
+Q 570 4563 710 4563 
+Q 851 4563 950 4464 
+Q 1050 4365 1050 4230 
+Q 1050 4096 950 3997 
+Q 851 3898 710 3898 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-136" d="M 518 3392 
+L 448 4800 
+L 915 4800 
+L 851 3392 
+L 518 3392 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-d7" d="M 1446 -64 
+Q 1062 -64 736 54 
+Q 410 173 179 397 
+L 429 704 
+Q 710 499 947 406 
+Q 1184 314 1434 314 
+Q 1773 314 1997 474 
+Q 2221 634 2221 883 
+Q 2221 1075 2089 1184 
+Q 1958 1293 1658 1350 
+L 1146 1440 
+Q 691 1523 476 1721 
+Q 262 1920 262 2259 
+Q 262 2528 406 2733 
+Q 550 2938 806 3056 
+Q 1062 3174 1389 3174 
+Q 1709 3174 1997 3081 
+Q 2285 2989 2579 2784 
+L 2349 2458 
+Q 2106 2630 1862 2710 
+Q 1619 2790 1370 2790 
+Q 1062 2790 876 2656 
+Q 691 2522 691 2291 
+Q 691 2099 809 1996 
+Q 928 1894 1229 1843 
+L 1754 1747 
+Q 2227 1664 2444 1459 
+Q 2662 1254 2662 909 
+Q 2662 634 2502 413 
+Q 2342 192 2067 64 
+Q 1792 -64 1446 -64 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-102" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-f4" d="M 83 0 
+L 1280 1619 
+L 154 3123 
+L 710 3123 
+L 1574 1933 
+L 2432 3123 
+L 2963 3123 
+L 1830 1606 
+L 3034 0 
+L 2477 0 
+L 1542 1274 
+L 614 0 
+L 83 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-126" d="M 570 4550 
+Q 1062 4250 1398 3802 
+Q 1734 3354 1910 2794 
+Q 2086 2234 2086 1574 
+Q 2086 915 1910 352 
+Q 1734 -211 1398 -656 
+Q 1062 -1101 570 -1408 
+L 326 -1082 
+Q 954 -691 1296 0 
+Q 1638 691 1638 1574 
+Q 1638 2458 1296 3149 
+Q 954 3840 326 4230 
+L 570 4550 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#RedHatText-Regular-125"/>
+       <use xlink:href="#RedHatText-Regular-13" transform="translate(40.09375 0)"/>
+       <use xlink:href="#RedHatText-Regular-7e" transform="translate(111.890625 0)"/>
+       <use xlink:href="#RedHatText-Regular-bf" transform="translate(164.484375 0)"/>
+       <use xlink:href="#RedHatText-Regular-a7" transform="translate(219.6875 0)"/>
+       <use xlink:href="#RedHatText-Regular-94" transform="translate(241.890625 0)"/>
+       <use xlink:href="#RedHatText-Regular-b9" transform="translate(297.59375 0)"/>
+       <use xlink:href="#RedHatText-Regular-136" transform="translate(319.890625 0)"/>
+       <use xlink:href="#RedHatText-Regular-d7" transform="translate(341.296875 0)"/>
+       <use xlink:href="#RedHatText-Regular-102" transform="translate(386.5 0)"/>
+       <use xlink:href="#RedHatText-Regular-be" transform="translate(409.796875 0)"/>
+       <use xlink:href="#RedHatText-Regular-a7" transform="translate(494.296875 0)"/>
+       <use xlink:href="#RedHatText-Regular-f4" transform="translate(516.5 0)"/>
+       <use xlink:href="#RedHatText-Regular-126" transform="translate(564.703125 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mc8b3390213" x="527.58806" y="322.56" style="fill: #4a5470; stroke: #4a5470; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- m2r -->
+      <g style="fill: #0b1020" transform="translate(518.602903 339.74) scale(0.1 -0.1)">
+       <use xlink:href="#RedHatText-Regular-be"/>
+       <use xlink:href="#RedHatText-Regular-17e" transform="translate(84.5 0)"/>
+       <use xlink:href="#RedHatText-Regular-d3" transform="translate(144.5 0)"/>
+      </g>
+      <!-- (+ refined experts) -->
+      <g style="fill: #0b1020" transform="translate(485.782591 352.97) scale(0.1 -0.1)">
+       <defs>
+        <path id="RedHatText-Regular-14d" d="M 1722 928 
+L 1722 2086 
+L 653 2086 
+L 653 2470 
+L 1722 2470 
+L 1722 3629 
+L 2118 3629 
+L 2118 2470 
+L 3187 2470 
+L 3187 2086 
+L 2118 2086 
+L 2118 928 
+L 1722 928 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-fe" d="M 877 0 
+L 877 2739 
+L 179 2739 
+L 179 3123 
+L 877 3123 
+L 877 3776 
+Q 877 4237 1120 4486 
+Q 1363 4736 1811 4736 
+Q 1939 4736 2044 4723 
+Q 2150 4710 2234 4678 
+L 2234 4256 
+Q 2131 4288 2048 4301 
+Q 1965 4314 1856 4314 
+Q 1587 4314 1465 4182 
+Q 1344 4051 1344 3770 
+L 1344 3123 
+L 2234 3123 
+L 2234 2739 
+L 1344 2739 
+L 1344 0 
+L 877 0 
+z
+M 2842 0 
+L 2842 3123 
+L 3309 3123 
+L 3309 0 
+L 2842 0 
+z
+M 3078 3898 
+Q 2938 3898 2838 3997 
+Q 2739 4096 2739 4230 
+Q 2739 4365 2838 4464 
+Q 2938 4563 3078 4563 
+Q 3219 4563 3318 4464 
+Q 3418 4365 3418 4230 
+Q 3418 4096 3318 3997 
+Q 3219 3898 3078 3898 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-90" d="M 1779 -45 
+Q 1376 -45 1049 169 
+Q 723 384 531 745 
+Q 339 1107 339 1555 
+Q 339 2010 534 2371 
+Q 730 2733 1062 2947 
+Q 1395 3162 1805 3162 
+Q 2093 3162 2342 3050 
+Q 2592 2938 2778 2726 
+L 2778 4621 
+L 3245 4717 
+L 3245 0 
+L 2778 0 
+L 2778 416 
+Q 2598 192 2342 73 
+Q 2086 -45 1779 -45 
+z
+M 1894 365 
+Q 2170 365 2400 473 
+Q 2630 582 2778 781 
+L 2778 2330 
+Q 2624 2528 2390 2640 
+Q 2157 2752 1894 2752 
+Q 1581 2752 1334 2598 
+Q 1088 2445 944 2176 
+Q 800 1907 800 1562 
+Q 800 1222 944 950 
+Q 1088 678 1334 521 
+Q 1581 365 1894 365 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-d0" d="M 480 -1338 
+L 480 3123 
+L 941 3123 
+L 941 2675 
+Q 1120 2912 1379 3037 
+Q 1638 3162 1952 3162 
+Q 2362 3162 2685 2947 
+Q 3008 2733 3200 2371 
+Q 3392 2010 3392 1562 
+Q 3392 1114 3197 749 
+Q 3002 384 2672 169 
+Q 2342 -45 1926 -45 
+Q 1632 -45 1382 67 
+Q 1133 179 947 390 
+L 947 -1338 
+L 480 -1338 
+z
+M 1837 358 
+Q 2150 358 2396 515 
+Q 2643 672 2787 944 
+Q 2931 1216 2931 1555 
+Q 2931 1901 2787 2169 
+Q 2643 2438 2396 2595 
+Q 2150 2752 1837 2752 
+Q 1562 2752 1328 2640 
+Q 1094 2528 947 2323 
+L 947 794 
+Q 1101 589 1334 473 
+Q 1568 358 1837 358 
+z
+" transform="scale(0.015625)"/>
+        <path id="RedHatText-Regular-de" d="M 1670 -64 
+Q 1267 -64 1059 131 
+Q 851 326 851 698 
+L 851 2739 
+L 205 2739 
+L 205 3123 
+L 851 3123 
+L 851 3981 
+L 1318 4090 
+L 1318 3123 
+L 2214 3123 
+L 2214 2739 
+L 1318 2739 
+L 1318 819 
+Q 1318 570 1424 461 
+Q 1530 352 1773 352 
+Q 1894 352 1990 371 
+Q 2086 390 2214 435 
+L 2214 19 
+Q 2086 -26 1945 -45 
+Q 1805 -64 1670 -64 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#RedHatText-Regular-125"/>
+       <use xlink:href="#RedHatText-Regular-14d" transform="translate(40.09375 0)"/>
+       <use xlink:href="#RedHatText-Regular-102" transform="translate(100.09375 0)"/>
+       <use xlink:href="#RedHatText-Regular-d3" transform="translate(123.390625 0)"/>
+       <use xlink:href="#RedHatText-Regular-94" transform="translate(155.59375 0)"/>
+       <use xlink:href="#RedHatText-Regular-fe" transform="translate(209.796875 0)"/>
+       <use xlink:href="#RedHatText-Regular-bf" transform="translate(269 0)"/>
+       <use xlink:href="#RedHatText-Regular-94" transform="translate(324.203125 0)"/>
+       <use xlink:href="#RedHatText-Regular-90" transform="translate(379.90625 0)"/>
+       <use xlink:href="#RedHatText-Regular-102" transform="translate(438.109375 0)"/>
+       <use xlink:href="#RedHatText-Regular-94" transform="translate(461.40625 0)"/>
+       <use xlink:href="#RedHatText-Regular-f4" transform="translate(514.109375 0)"/>
+       <use xlink:href="#RedHatText-Regular-d0" transform="translate(562.8125 0)"/>
+       <use xlink:href="#RedHatText-Regular-94" transform="translate(621.109375 0)"/>
+       <use xlink:href="#RedHatText-Regular-d3" transform="translate(676.8125 0)"/>
+       <use xlink:href="#RedHatText-Regular-de" transform="translate(712.015625 0)"/>
+       <use xlink:href="#RedHatText-Regular-d7" transform="translate(750.8125 0)"/>
+       <use xlink:href="#RedHatText-Regular-126" transform="translate(796.015625 0)"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <path d="M 64.8 322.56 
+L 628.56 322.56 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #d9deea; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5">
+      <defs>
+       <path id="m44e7b76393" d="M 0 0 
+L -3.5 0 
+" style="stroke: #4a5470; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m44e7b76393" x="64.8" y="322.56" style="fill: #4a5470; stroke: #4a5470; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- 0.0 -->
+      <g style="fill: #4a5470" transform="translate(42.6 327.65) scale(0.1 -0.1)">
+       <defs>
+        <path id="RedHatText-Regular-10b" d="M 800 -51 
+Q 659 -51 560 51 
+Q 461 154 461 294 
+Q 461 442 560 541 
+Q 659 640 800 640 
+Q 941 640 1040 541 
+Q 1139 442 1139 294 
+Q 1139 154 1040 51 
+Q 941 -51 800 -51 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#RedHatText-Regular-17c"/>
+       <use xlink:href="#RedHatText-Regular-10b" transform="translate(63.5 0)"/>
+       <use xlink:href="#RedHatText-Regular-17c" transform="translate(86 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <path d="M 64.8 282.482051 
+L 628.56 282.482051 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #d9deea; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m44e7b76393" x="64.8" y="282.482051" style="fill: #4a5470; stroke: #4a5470; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- 0.1 -->
+      <g style="fill: #4a5470" transform="translate(46.329687 287.572051) scale(0.1 -0.1)">
+       <use xlink:href="#RedHatText-Regular-17c"/>
+       <use xlink:href="#RedHatText-Regular-10b" transform="translate(63.5 0)"/>
+       <use xlink:href="#RedHatText-Regular-17d" transform="translate(84 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <path d="M 64.8 242.404103 
+L 628.56 242.404103 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #d9deea; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m44e7b76393" x="64.8" y="242.404103" style="fill: #4a5470; stroke: #4a5470; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- 0.2 -->
+      <g style="fill: #4a5470" transform="translate(42.95 247.494103) scale(0.1 -0.1)">
+       <use xlink:href="#RedHatText-Regular-17c"/>
+       <use xlink:href="#RedHatText-Regular-10b" transform="translate(63.5 0)"/>
+       <use xlink:href="#RedHatText-Regular-17e" transform="translate(88.5 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <path d="M 64.8 202.326154 
+L 628.56 202.326154 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #d9deea; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m44e7b76393" x="64.8" y="202.326154" style="fill: #4a5470; stroke: #4a5470; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- 0.3 -->
+      <g style="fill: #4a5470" transform="translate(43.05 207.416154) scale(0.1 -0.1)">
+       <use xlink:href="#RedHatText-Regular-17c"/>
+       <use xlink:href="#RedHatText-Regular-10b" transform="translate(63.5 0)"/>
+       <use xlink:href="#RedHatText-Regular-17f" transform="translate(87.5 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12">
+      <path d="M 64.8 162.248205 
+L 628.56 162.248205 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #d9deea; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m44e7b76393" x="64.8" y="162.248205" style="fill: #4a5470; stroke: #4a5470; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <!-- 0.4 -->
+      <g style="fill: #4a5470" transform="translate(42.970312 167.338205) scale(0.1 -0.1)">
+       <defs>
+        <path id="RedHatText-Regular-180" d="M 2669 0 
+L 2669 1197 
+L 250 1197 
+L 250 1562 
+L 2630 4480 
+L 3123 4480 
+L 3123 1600 
+L 3744 1600 
+L 3744 1197 
+L 3123 1197 
+L 3123 0 
+L 2669 0 
+z
+M 787 1600 
+L 2669 1600 
+L 2669 3923 
+L 787 1600 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#RedHatText-Regular-17c"/>
+       <use xlink:href="#RedHatText-Regular-10b" transform="translate(63.5 0)"/>
+       <use xlink:href="#RedHatText-Regular-180" transform="translate(86.5 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_14">
+      <path d="M 64.8 122.170256 
+L 628.56 122.170256 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #d9deea; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m44e7b76393" x="64.8" y="122.170256" style="fill: #4a5470; stroke: #4a5470; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <!-- 0.5 -->
+      <g style="fill: #4a5470" transform="translate(43.05 127.260256) scale(0.1 -0.1)">
+       <defs>
+        <path id="RedHatText-Regular-181" d="M 1843 -70 
+Q 960 -70 320 538 
+L 608 851 
+Q 902 576 1193 451 
+Q 1485 326 1850 326 
+Q 2176 326 2425 460 
+Q 2675 595 2812 838 
+Q 2950 1082 2950 1395 
+Q 2950 1843 2646 2118 
+Q 2342 2394 1850 2394 
+Q 1594 2394 1350 2333 
+Q 1107 2272 845 2138 
+L 525 2240 
+L 627 4480 
+L 3174 4480 
+L 3174 4077 
+L 1024 4077 
+L 954 2528 
+Q 1210 2656 1446 2710 
+Q 1683 2765 1946 2765 
+Q 2387 2765 2716 2595 
+Q 3046 2426 3228 2122 
+Q 3411 1818 3411 1414 
+Q 3411 973 3212 640 
+Q 3014 307 2662 118 
+Q 2310 -70 1843 -70 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#RedHatText-Regular-17c"/>
+       <use xlink:href="#RedHatText-Regular-10b" transform="translate(63.5 0)"/>
+       <use xlink:href="#RedHatText-Regular-181" transform="translate(87.5 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_10">
+     <!-- mean KL vs BF16 -->
+     <g style="fill: #0b1020" transform="translate(35.55 241.191) rotate(-90) scale(0.1 -0.1)">
+      <defs>
+       <path id="RedHatText-Regular-37" d="M 570 0 
+L 570 4480 
+L 1062 4480 
+L 1062 2355 
+L 3238 4480 
+L 3866 4480 
+L 1581 2278 
+L 3917 0 
+L 3245 0 
+L 1062 2144 
+L 1062 0 
+L 570 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="RedHatText-Regular-39" d="M 570 0 
+L 570 4480 
+L 1062 4480 
+L 1062 435 
+L 3590 435 
+L 3590 0 
+L 570 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="RedHatText-Regular-ee" d="M 1376 0 
+L 96 3123 
+L 602 3123 
+L 1613 582 
+L 2611 3123 
+L 3110 3123 
+L 1824 0 
+L 1376 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="RedHatText-Regular-c" d="M 570 0 
+L 570 4480 
+L 2381 4480 
+Q 2790 4480 3094 4339 
+Q 3398 4198 3564 3942 
+Q 3731 3686 3731 3341 
+Q 3731 2970 3516 2704 
+Q 3302 2438 2938 2330 
+Q 3386 2227 3645 1942 
+Q 3904 1658 3904 1242 
+Q 3904 870 3725 588 
+Q 3546 307 3219 153 
+Q 2893 0 2451 0 
+L 570 0 
+z
+M 1062 2522 
+L 2342 2522 
+Q 2752 2522 2995 2730 
+Q 3238 2938 3238 3290 
+Q 3238 3642 2995 3850 
+Q 2752 4058 2342 4058 
+L 1062 4058 
+L 1062 2522 
+z
+M 1062 422 
+L 2400 422 
+Q 2854 422 3129 656 
+Q 3405 890 3405 1274 
+Q 3405 1658 3133 1888 
+Q 2861 2118 2400 2118 
+L 1062 2118 
+L 1062 422 
+z
+" transform="scale(0.015625)"/>
+       <path id="RedHatText-Regular-21" d="M 570 0 
+L 570 4480 
+L 3629 4480 
+L 3629 4045 
+L 1062 4045 
+L 1062 2445 
+L 2816 2445 
+L 2816 2016 
+L 1062 2016 
+L 1062 0 
+L 570 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="RedHatText-Regular-182" d="M 2054 -64 
+Q 1536 -64 1142 211 
+Q 749 486 525 969 
+Q 301 1453 301 2086 
+Q 301 2829 550 3382 
+Q 800 3936 1254 4243 
+Q 1709 4550 2310 4550 
+Q 2592 4550 2867 4473 
+Q 3142 4397 3360 4250 
+L 3130 3891 
+Q 2931 4006 2713 4070 
+Q 2496 4134 2272 4134 
+Q 1811 4134 1475 3894 
+Q 1139 3654 956 3206 
+Q 774 2758 762 2131 
+Q 1011 2451 1356 2630 
+Q 1702 2810 2074 2810 
+Q 2509 2810 2848 2630 
+Q 3187 2451 3379 2134 
+Q 3571 1818 3571 1414 
+Q 3571 992 3372 656 
+Q 3174 320 2832 128 
+Q 2490 -64 2054 -64 
+z
+M 2010 2432 
+Q 1658 2432 1334 2256 
+Q 1011 2080 774 1773 
+Q 826 1344 995 1021 
+Q 1165 698 1437 518 
+Q 1709 339 2048 339 
+Q 2355 339 2595 476 
+Q 2835 614 2972 857 
+Q 3110 1101 3110 1402 
+Q 3110 1702 2969 1936 
+Q 2829 2170 2582 2301 
+Q 2336 2432 2010 2432 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#RedHatText-Regular-be"/>
+      <use xlink:href="#RedHatText-Regular-94" transform="translate(84.5 0)"/>
+      <use xlink:href="#RedHatText-Regular-7e" transform="translate(139.203125 0)"/>
+      <use xlink:href="#RedHatText-Regular-bf" transform="translate(191.796875 0)"/>
+      <use xlink:href="#RedHatText-Regular-102" transform="translate(247 0)"/>
+      <use xlink:href="#RedHatText-Regular-37" transform="translate(270.296875 0)"/>
+      <use xlink:href="#RedHatText-Regular-39" transform="translate(330.296875 0)"/>
+      <use xlink:href="#RedHatText-Regular-102" transform="translate(391 0)"/>
+      <use xlink:href="#RedHatText-Regular-ee" transform="translate(414.296875 0)"/>
+      <use xlink:href="#RedHatText-Regular-d7" transform="translate(464.390625 0)"/>
+      <use xlink:href="#RedHatText-Regular-102" transform="translate(509.59375 0)"/>
+      <use xlink:href="#RedHatText-Regular-c" transform="translate(532.890625 0)"/>
+      <use xlink:href="#RedHatText-Regular-21" transform="translate(599.796875 0)"/>
+      <use xlink:href="#RedHatText-Regular-17d" transform="translate(660.796875 0)"/>
+      <use xlink:href="#RedHatText-Regular-182" transform="translate(691.5 0)"/>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_16">
+    <path d="M 191.014925 120.96 
+L 359.301493 163.377137 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #7f93c9; stroke-width: 2.4; stroke-linecap: square"/>
+   </g>
+   <g id="LineCollection_1">
+    <path d="M 359.301493 163.377137 
+L 363.616533 163.889919 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #2ec5ff; stroke-width: 2.4"/>
+    <path d="M 363.616533 163.889919 
+L 367.931573 164.402701 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #2fc2ff; stroke-width: 2.4"/>
+    <path d="M 367.931573 164.402701 
+L 372.246613 164.915483 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #30bdff; stroke-width: 2.4"/>
+    <path d="M 372.246613 164.915483 
+L 376.561653 165.428265 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #31baff; stroke-width: 2.4"/>
+    <path d="M 376.561653 165.428265 
+L 380.876693 165.941048 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #33b4ff; stroke-width: 2.4"/>
+    <path d="M 380.876693 165.941048 
+L 385.191734 166.45383 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #34aeff; stroke-width: 2.4"/>
+    <path d="M 385.191734 166.45383 
+L 389.506774 166.966612 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #35acff; stroke-width: 2.4"/>
+    <path d="M 389.506774 166.966612 
+L 393.821814 167.479394 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #37a6ff; stroke-width: 2.4"/>
+    <path d="M 393.821814 167.479394 
+L 398.136854 167.992176 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #39a0ff; stroke-width: 2.4"/>
+    <path d="M 398.136854 167.992176 
+L 402.451894 168.504958 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #399dff; stroke-width: 2.4"/>
+    <path d="M 402.451894 168.504958 
+L 406.766935 169.017741 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #3b98ff; stroke-width: 2.4"/>
+    <path d="M 406.766935 169.017741 
+L 411.081975 169.530523 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #3d92ff; stroke-width: 2.4"/>
+    <path d="M 411.081975 169.530523 
+L 415.397015 170.043305 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #3d8fff; stroke-width: 2.4"/>
+    <path d="M 415.397015 170.043305 
+L 419.712055 170.556087 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #3f8aff; stroke-width: 2.4"/>
+    <path d="M 419.712055 170.556087 
+L 424.027095 171.068869 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #4184ff; stroke-width: 2.4"/>
+    <path d="M 424.027095 171.068869 
+L 428.342135 171.581651 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #4181ff; stroke-width: 2.4"/>
+    <path d="M 428.342135 171.581651 
+L 432.657176 172.094434 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #437bff; stroke-width: 2.4"/>
+    <path d="M 432.657176 172.094434 
+L 436.972216 172.607216 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #4576ff; stroke-width: 2.4"/>
+    <path d="M 436.972216 172.607216 
+L 441.287256 173.119998 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #4573ff; stroke-width: 2.4"/>
+    <path d="M 441.287256 173.119998 
+L 445.602296 173.63278 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #476dff; stroke-width: 2.4"/>
+    <path d="M 445.602296 173.63278 
+L 449.917336 174.145562 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #4968ff; stroke-width: 2.4"/>
+    <path d="M 449.917336 174.145562 
+L 454.232377 174.658344 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #4965ff; stroke-width: 2.4"/>
+    <path d="M 454.232377 174.658344 
+L 458.547417 175.171127 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #4d63ff; stroke-width: 2.4"/>
+    <path d="M 458.547417 175.171127 
+L 462.862457 175.683909 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #5262fe; stroke-width: 2.4"/>
+    <path d="M 462.862457 175.683909 
+L 467.177497 176.196691 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #5462fe; stroke-width: 2.4"/>
+    <path d="M 467.177497 176.196691 
+L 471.492537 176.709473 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #5961fd; stroke-width: 2.4"/>
+    <path d="M 471.492537 176.709473 
+L 475.807577 177.222255 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #5d61fc; stroke-width: 2.4"/>
+    <path d="M 475.807577 177.222255 
+L 480.122618 177.735037 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #5f61fc; stroke-width: 2.4"/>
+    <path d="M 480.122618 177.735037 
+L 484.437658 178.24782 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #6460fb; stroke-width: 2.4"/>
+    <path d="M 484.437658 178.24782 
+L 488.752698 178.760602 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #6960fb; stroke-width: 2.4"/>
+    <path d="M 488.752698 178.760602 
+L 493.067738 179.273384 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #6b5ffa; stroke-width: 2.4"/>
+    <path d="M 493.067738 179.273384 
+L 497.382778 179.786166 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #6f5ffa; stroke-width: 2.4"/>
+    <path d="M 497.382778 179.786166 
+L 501.697819 180.298948 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #745ef9; stroke-width: 2.4"/>
+    <path d="M 501.697819 180.298948 
+L 506.012859 180.81173 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #765ef9; stroke-width: 2.4"/>
+    <path d="M 506.012859 180.81173 
+L 510.327899 181.324513 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #7b5ef8; stroke-width: 2.4"/>
+    <path d="M 510.327899 181.324513 
+L 514.642939 181.837295 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #805df8; stroke-width: 2.4"/>
+    <path d="M 514.642939 181.837295 
+L 518.957979 182.350077 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #825df7; stroke-width: 2.4"/>
+    <path d="M 518.957979 182.350077 
+L 523.27302 182.862859 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #865cf7; stroke-width: 2.4"/>
+    <path d="M 523.27302 182.862859 
+L 527.58806 183.375641 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke: #8b5cf6; stroke-width: 2.4"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 64.8 318.886724 
+L 628.56 318.886724 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 1,1.65; stroke-dashoffset: 0; stroke: #4a5470"/>
+   </g>
+   <g id="line2d_18">
+    <path d="M 191.014925 187.413465 
+L 359.301493 230.372939 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #7f93c9; stroke-width: 2.4"/>
+   </g>
+   <g id="LineCollection_2">
+    <path d="M 359.301493 230.372939 
+L 363.616533 230.687577 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #2ec5ff; stroke-width: 2.4"/>
+    <path d="M 363.616533 230.687577 
+L 367.931573 231.002215 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #2fc2ff; stroke-width: 2.4"/>
+    <path d="M 367.931573 231.002215 
+L 372.246613 231.316853 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #30bdff; stroke-width: 2.4"/>
+    <path d="M 372.246613 231.316853 
+L 376.561653 231.631491 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #31baff; stroke-width: 2.4"/>
+    <path d="M 376.561653 231.631491 
+L 380.876693 231.946129 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #33b4ff; stroke-width: 2.4"/>
+    <path d="M 380.876693 231.946129 
+L 385.191734 232.260767 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #34aeff; stroke-width: 2.4"/>
+    <path d="M 385.191734 232.260767 
+L 389.506774 232.575405 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #35acff; stroke-width: 2.4"/>
+    <path d="M 389.506774 232.575405 
+L 393.821814 232.890043 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #37a6ff; stroke-width: 2.4"/>
+    <path d="M 393.821814 232.890043 
+L 398.136854 233.204681 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #39a0ff; stroke-width: 2.4"/>
+    <path d="M 398.136854 233.204681 
+L 402.451894 233.519319 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #399dff; stroke-width: 2.4"/>
+    <path d="M 402.451894 233.519319 
+L 406.766935 233.833957 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #3b98ff; stroke-width: 2.4"/>
+    <path d="M 406.766935 233.833957 
+L 411.081975 234.148595 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #3d92ff; stroke-width: 2.4"/>
+    <path d="M 411.081975 234.148595 
+L 415.397015 234.463233 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #3d8fff; stroke-width: 2.4"/>
+    <path d="M 415.397015 234.463233 
+L 419.712055 234.777871 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #3f8aff; stroke-width: 2.4"/>
+    <path d="M 419.712055 234.777871 
+L 424.027095 235.092509 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #4184ff; stroke-width: 2.4"/>
+    <path d="M 424.027095 235.092509 
+L 428.342135 235.407147 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #4181ff; stroke-width: 2.4"/>
+    <path d="M 428.342135 235.407147 
+L 432.657176 235.721785 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #437bff; stroke-width: 2.4"/>
+    <path d="M 432.657176 235.721785 
+L 436.972216 236.036423 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #4576ff; stroke-width: 2.4"/>
+    <path d="M 436.972216 236.036423 
+L 441.287256 236.351061 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #4573ff; stroke-width: 2.4"/>
+    <path d="M 441.287256 236.351061 
+L 445.602296 236.665699 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #476dff; stroke-width: 2.4"/>
+    <path d="M 445.602296 236.665699 
+L 449.917336 236.980337 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #4968ff; stroke-width: 2.4"/>
+    <path d="M 449.917336 236.980337 
+L 454.232377 237.294975 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #4965ff; stroke-width: 2.4"/>
+    <path d="M 454.232377 237.294975 
+L 458.547417 237.609613 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #4d63ff; stroke-width: 2.4"/>
+    <path d="M 458.547417 237.609613 
+L 462.862457 237.924251 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #5262fe; stroke-width: 2.4"/>
+    <path d="M 462.862457 237.924251 
+L 467.177497 238.238889 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #5462fe; stroke-width: 2.4"/>
+    <path d="M 467.177497 238.238889 
+L 471.492537 238.553527 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #5961fd; stroke-width: 2.4"/>
+    <path d="M 471.492537 238.553527 
+L 475.807577 238.868165 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #5d61fc; stroke-width: 2.4"/>
+    <path d="M 475.807577 238.868165 
+L 480.122618 239.182803 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #5f61fc; stroke-width: 2.4"/>
+    <path d="M 480.122618 239.182803 
+L 484.437658 239.497441 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #6460fb; stroke-width: 2.4"/>
+    <path d="M 484.437658 239.497441 
+L 488.752698 239.812079 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #6960fb; stroke-width: 2.4"/>
+    <path d="M 488.752698 239.812079 
+L 493.067738 240.126717 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #6b5ffa; stroke-width: 2.4"/>
+    <path d="M 493.067738 240.126717 
+L 497.382778 240.441355 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #6f5ffa; stroke-width: 2.4"/>
+    <path d="M 497.382778 240.441355 
+L 501.697819 240.755993 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #745ef9; stroke-width: 2.4"/>
+    <path d="M 501.697819 240.755993 
+L 506.012859 241.070631 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #765ef9; stroke-width: 2.4"/>
+    <path d="M 506.012859 241.070631 
+L 510.327899 241.385269 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #7b5ef8; stroke-width: 2.4"/>
+    <path d="M 510.327899 241.385269 
+L 514.642939 241.699907 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #805df8; stroke-width: 2.4"/>
+    <path d="M 514.642939 241.699907 
+L 518.957979 242.014545 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #825df7; stroke-width: 2.4"/>
+    <path d="M 518.957979 242.014545 
+L 523.27302 242.329183 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #865cf7; stroke-width: 2.4"/>
+    <path d="M 523.27302 242.329183 
+L 527.58806 242.643821 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #8b5cf6; stroke-width: 2.4"/>
+   </g>
+   <g id="line2d_19">
+    <path d="M 64.8 320.719385 
+L 628.56 320.719385 
+" clip-path="url(#p8e926cf6da)" style="fill: none; stroke-dasharray: 1,1.65; stroke-dashoffset: 0; stroke: #4a5470"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 64.8 322.56 
+L 64.8 84.672 
+" style="fill: none; stroke: #4a5470; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 64.8 322.56 
+L 628.56 322.56 
+" style="fill: none; stroke: #4a5470; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_20">
+    <defs>
+     <path id="m7fff17a056" d="M 0 4 
+C 1.060812 4 2.078319 3.578535 2.828427 2.828427 
+C 3.578535 2.078319 4 1.060812 4 0 
+C 4 -1.060812 3.578535 -2.078319 2.828427 -2.828427 
+C 2.078319 -3.578535 1.060812 -4 0 -4 
+C -1.060812 -4 -2.078319 -3.578535 -2.828427 -2.828427 
+C -3.578535 -2.078319 -4 -1.060812 -4 0 
+C -4 1.060812 -3.578535 2.078319 -2.828427 2.828427 
+C -2.078319 3.578535 -1.060812 4 0 4 
+z
+" style="stroke: #4a63ff; stroke-width: 1.8"/>
+    </defs>
+    <g clip-path="url(#p8e926cf6da)">
+     <use xlink:href="#m7fff17a056" x="191.014925" y="120.96" style="fill: #4a63ff; stroke: #4a63ff; stroke-width: 1.8"/>
+     <use xlink:href="#m7fff17a056" x="359.301493" y="163.377137" style="fill: #4a63ff; stroke: #4a63ff; stroke-width: 1.8"/>
+     <use xlink:href="#m7fff17a056" x="527.58806" y="183.375641" style="fill: #4a63ff; stroke: #4a63ff; stroke-width: 1.8"/>
+    </g>
+   </g>
+   <g id="text_11">
+    <!-- wiki.test -->
+    <g style="fill: #0b1020" transform="translate(145.303988 124.525) scale(0.1 -0.1)">
+     <defs>
+      <path id="RedHatText-Regular-ef" d="M 1037 0 
+L 179 3123 
+L 634 3123 
+L 1286 627 
+L 2035 3123 
+L 2451 3123 
+L 3200 627 
+L 3846 3123 
+L 4288 3123 
+L 3437 0 
+L 2982 0 
+L 2240 2522 
+L 1498 0 
+L 1037 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="RedHatText-Regular-b6" d="M 480 0 
+L 480 4621 
+L 947 4717 
+L 947 1722 
+L 2432 3123 
+L 2995 3123 
+L 1408 1638 
+L 3066 0 
+L 2451 0 
+L 947 1491 
+L 947 0 
+L 480 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#RedHatText-Regular-ef"/>
+     <use xlink:href="#RedHatText-Regular-a7" transform="translate(69.796875 0)"/>
+     <use xlink:href="#RedHatText-Regular-b6" transform="translate(92 0)"/>
+     <use xlink:href="#RedHatText-Regular-a7" transform="translate(140.90625 0)"/>
+     <use xlink:href="#RedHatText-Regular-10b" transform="translate(163.109375 0)"/>
+     <use xlink:href="#RedHatText-Regular-de" transform="translate(182.109375 0)"/>
+     <use xlink:href="#RedHatText-Regular-94" transform="translate(218.90625 0)"/>
+     <use xlink:href="#RedHatText-Regular-d7" transform="translate(275.109375 0)"/>
+     <use xlink:href="#RedHatText-Regular-de" transform="translate(319.3125 0)"/>
+    </g>
+   </g>
+   <g id="line2d_21">
+    <defs>
+     <path id="m43182ceb81" d="M -4 4 
+L 4 4 
+L 4 -4 
+L -4 -4 
+z
+" style="stroke: #4a63ff; stroke-width: 1.8; stroke-linejoin: miter"/>
+    </defs>
+    <g clip-path="url(#p8e926cf6da)">
+     <use xlink:href="#m43182ceb81" x="191.014925" y="187.413465" style="fill: #ffffff; stroke: #4a63ff; stroke-width: 1.8; stroke-linejoin: miter"/>
+     <use xlink:href="#m43182ceb81" x="359.301493" y="230.372939" style="fill: #ffffff; stroke: #4a63ff; stroke-width: 1.8; stroke-linejoin: miter"/>
+     <use xlink:href="#m43182ceb81" x="527.58806" y="242.643821" style="fill: #ffffff; stroke: #4a63ff; stroke-width: 1.8; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_12">
+    <!-- eval-ood -->
+    <g style="fill: #0b1020" transform="translate(141.225863 190.978465) scale(0.1 -0.1)">
+     <defs>
+      <path id="RedHatText-Regular-11c" d="M 390 1600 
+L 390 2003 
+L 2522 2003 
+L 2522 1600 
+L 390 1600 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#RedHatText-Regular-94"/>
+     <use xlink:href="#RedHatText-Regular-ee" transform="translate(54.203125 0)"/>
+     <use xlink:href="#RedHatText-Regular-7e" transform="translate(102.296875 0)"/>
+     <use xlink:href="#RedHatText-Regular-b9" transform="translate(154.890625 0)"/>
+     <use xlink:href="#RedHatText-Regular-11c" transform="translate(177.1875 0)"/>
+     <use xlink:href="#RedHatText-Regular-c5" transform="translate(223.6875 0)"/>
+     <use xlink:href="#RedHatText-Regular-c5" transform="translate(281.6875 0)"/>
+     <use xlink:href="#RedHatText-Regular-90" transform="translate(339.6875 0)"/>
+    </g>
+   </g>
+   <g id="text_13">
+    <!-- went to the release gate -->
+    <g style="fill: #4a63ff" transform="translate(478.02056 169.375641) scale(0.09 -0.09)">
+     <defs>
+      <path id="RedHatText-Medium-ef" d="M 1024 0 
+L 160 3168 
+L 742 3168 
+L 1350 800 
+L 2048 3168 
+L 2573 3168 
+L 3277 800 
+L 3872 3168 
+L 4442 3168 
+L 3584 0 
+L 2995 0 
+L 2304 2381 
+L 1619 0 
+L 1024 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="RedHatText-Medium-94" d="M 1914 -64 
+Q 1466 -64 1104 153 
+Q 742 371 531 742 
+Q 320 1114 320 1581 
+Q 320 2048 521 2419 
+Q 723 2790 1065 3004 
+Q 1408 3219 1837 3219 
+Q 2266 3219 2598 3008 
+Q 2931 2797 3126 2432 
+Q 3322 2067 3322 1600 
+L 3322 1440 
+L 909 1440 
+Q 941 1152 1081 928 
+Q 1222 704 1449 576 
+Q 1677 448 1939 448 
+Q 2176 448 2390 531 
+Q 2605 614 2752 755 
+L 3142 378 
+Q 2861 154 2563 45 
+Q 2266 -64 1914 -64 
+z
+M 922 1837 
+L 2733 1837 
+Q 2701 2093 2573 2291 
+Q 2445 2490 2256 2602 
+Q 2067 2714 1830 2714 
+Q 1600 2714 1408 2605 
+Q 1216 2496 1091 2297 
+Q 966 2099 922 1837 
+z
+" transform="scale(0.015625)"/>
+      <path id="RedHatText-Medium-bf" d="M 461 0 
+L 461 3168 
+L 1069 3168 
+L 1069 2656 
+Q 1248 2938 1504 3078 
+Q 1760 3219 2074 3219 
+Q 2406 3219 2659 3075 
+Q 2912 2931 3053 2672 
+Q 3194 2413 3194 2074 
+L 3194 0 
+L 2592 0 
+L 2592 1894 
+Q 2592 2278 2381 2502 
+Q 2170 2726 1824 2726 
+Q 1587 2726 1395 2617 
+Q 1203 2509 1069 2298 
+L 1069 0 
+L 461 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="RedHatText-Medium-de" d="M 1754 -64 
+Q 1312 -64 1081 150 
+Q 851 365 851 774 
+L 851 2682 
+L 205 2682 
+L 205 3168 
+L 851 3168 
+L 851 4038 
+L 1453 4173 
+L 1453 3168 
+L 2349 3168 
+L 2349 2682 
+L 1453 2682 
+L 1453 915 
+Q 1453 672 1558 566 
+Q 1664 461 1907 461 
+Q 2016 461 2112 480 
+Q 2208 499 2342 544 
+L 2342 26 
+Q 2208 -19 2051 -41 
+Q 1894 -64 1754 -64 
+z
+" transform="scale(0.015625)"/>
+      <path id="RedHatText-Medium-102" transform="scale(0.015625)"/>
+      <path id="RedHatText-Medium-c5" d="M 1888 -51 
+Q 1440 -51 1085 160 
+Q 730 371 525 742 
+Q 320 1114 320 1581 
+Q 320 2048 525 2419 
+Q 730 2790 1088 3004 
+Q 1446 3219 1888 3219 
+Q 2336 3219 2688 3004 
+Q 3040 2790 3248 2419 
+Q 3456 2048 3456 1581 
+Q 3456 1114 3248 742 
+Q 3040 371 2688 160 
+Q 2336 -51 1888 -51 
+z
+M 1888 467 
+Q 2170 467 2387 611 
+Q 2605 755 2729 1011 
+Q 2854 1267 2854 1581 
+Q 2854 1907 2729 2156 
+Q 2605 2406 2387 2550 
+Q 2170 2694 1888 2694 
+Q 1606 2694 1385 2550 
+Q 1165 2406 1040 2156 
+Q 915 1907 915 1581 
+Q 915 1267 1040 1011 
+Q 1165 755 1385 611 
+Q 1606 467 1888 467 
+z
+" transform="scale(0.015625)"/>
+      <path id="RedHatText-Medium-a4" d="M 461 0 
+L 461 4608 
+L 1069 4717 
+L 1069 2656 
+Q 1248 2938 1504 3078 
+Q 1760 3219 2074 3219 
+Q 2406 3219 2659 3075 
+Q 2912 2931 3053 2672 
+Q 3194 2413 3194 2074 
+L 3194 0 
+L 2592 0 
+L 2592 1894 
+Q 2592 2278 2381 2502 
+Q 2170 2726 1824 2726 
+Q 1587 2726 1395 2617 
+Q 1203 2509 1069 2298 
+L 1069 0 
+L 461 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="RedHatText-Medium-d3" d="M 461 0 
+L 461 3168 
+L 1069 3168 
+L 1069 2502 
+Q 1197 2848 1424 3033 
+Q 1651 3219 1946 3219 
+Q 2035 3219 2105 3209 
+Q 2176 3200 2253 3168 
+L 2253 2630 
+Q 2170 2662 2074 2681 
+Q 1978 2701 1888 2701 
+Q 1613 2701 1401 2547 
+Q 1190 2394 1069 2118 
+L 1069 0 
+L 461 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="RedHatText-Medium-b9" d="M 461 0 
+L 461 4608 
+L 1069 4717 
+L 1069 0 
+L 461 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="RedHatText-Medium-7e" d="M 1434 -58 
+Q 1101 -58 845 67 
+Q 589 192 445 406 
+Q 301 621 301 909 
+Q 301 1197 448 1405 
+Q 595 1613 864 1728 
+Q 1133 1843 1498 1843 
+Q 1747 1843 1971 1792 
+Q 2195 1741 2406 1626 
+L 2406 2010 
+Q 2406 2362 2211 2538 
+Q 2016 2714 1638 2714 
+Q 1427 2714 1200 2653 
+Q 973 2592 691 2458 
+L 474 2906 
+Q 1146 3219 1734 3219 
+Q 2342 3219 2672 2924 
+Q 3002 2630 3002 2080 
+L 3002 0 
+L 2406 0 
+L 2406 346 
+Q 2195 141 1955 41 
+Q 1715 -58 1434 -58 
+z
+M 870 922 
+Q 870 678 1065 531 
+Q 1261 384 1581 384 
+Q 1824 384 2025 461 
+Q 2227 538 2406 691 
+L 2406 1254 
+Q 2221 1344 2025 1392 
+Q 1830 1440 1600 1440 
+Q 1267 1440 1068 1299 
+Q 870 1158 870 922 
+z
+" transform="scale(0.015625)"/>
+      <path id="RedHatText-Medium-d7" d="M 1498 -64 
+Q 1094 -64 752 51 
+Q 410 166 166 384 
+L 467 787 
+Q 768 582 1005 496 
+Q 1242 410 1485 410 
+Q 1798 410 1996 547 
+Q 2195 685 2195 902 
+Q 2195 1075 2080 1171 
+Q 1965 1267 1696 1312 
+L 1152 1408 
+Q 691 1498 470 1706 
+Q 250 1914 250 2266 
+Q 250 2547 400 2761 
+Q 550 2976 819 3097 
+Q 1088 3219 1440 3219 
+Q 1766 3219 2067 3126 
+Q 2368 3034 2669 2829 
+L 2374 2426 
+Q 2131 2592 1891 2669 
+Q 1651 2746 1408 2746 
+Q 1126 2746 960 2630 
+Q 794 2515 794 2310 
+Q 794 2144 902 2054 
+Q 1011 1965 1286 1914 
+L 1837 1818 
+Q 2310 1728 2537 1513 
+Q 2765 1299 2765 947 
+Q 2765 659 2598 428 
+Q 2432 198 2144 67 
+Q 1856 -64 1498 -64 
+z
+" transform="scale(0.015625)"/>
+      <path id="RedHatText-Medium-9f" d="M 1933 -1402 
+Q 1606 -1402 1283 -1318 
+Q 960 -1235 685 -1082 
+L 909 -627 
+Q 1197 -774 1437 -841 
+Q 1677 -909 1914 -909 
+Q 2330 -909 2541 -717 
+Q 2752 -525 2752 -154 
+L 2752 429 
+Q 2579 211 2323 92 
+Q 2067 -26 1766 -26 
+Q 1363 -26 1033 188 
+Q 704 403 512 771 
+Q 320 1139 320 1587 
+Q 320 2042 518 2406 
+Q 717 2771 1053 2985 
+Q 1389 3200 1805 3200 
+Q 2086 3200 2332 3091 
+Q 2579 2982 2758 2765 
+L 2758 3168 
+L 3360 3168 
+L 3360 -154 
+Q 3360 -755 2992 -1078 
+Q 2624 -1402 1933 -1402 
+z
+M 1933 486 
+Q 2189 486 2400 585 
+Q 2611 685 2752 870 
+L 2752 2304 
+Q 2605 2483 2390 2582 
+Q 2176 2682 1933 2682 
+Q 1645 2682 1414 2541 
+Q 1184 2400 1049 2153 
+Q 915 1907 915 1587 
+Q 915 1274 1049 1024 
+Q 1184 774 1414 630 
+Q 1645 486 1933 486 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#RedHatText-Medium-ef"/>
+     <use xlink:href="#RedHatText-Medium-94" transform="translate(70.90625 0)"/>
+     <use xlink:href="#RedHatText-Medium-bf" transform="translate(127.5 0)"/>
+     <use xlink:href="#RedHatText-Medium-de" transform="translate(182.796875 0)"/>
+     <use xlink:href="#RedHatText-Medium-102" transform="translate(222.59375 0)"/>
+     <use xlink:href="#RedHatText-Medium-de" transform="translate(245.5 0)"/>
+     <use xlink:href="#RedHatText-Medium-c5" transform="translate(284.390625 0)"/>
+     <use xlink:href="#RedHatText-Medium-102" transform="translate(343.296875 0)"/>
+     <use xlink:href="#RedHatText-Medium-de" transform="translate(366.203125 0)"/>
+     <use xlink:href="#RedHatText-Medium-a4" transform="translate(406 0)"/>
+     <use xlink:href="#RedHatText-Medium-94" transform="translate(462.796875 0)"/>
+     <use xlink:href="#RedHatText-Medium-102" transform="translate(519.390625 0)"/>
+     <use xlink:href="#RedHatText-Medium-d3" transform="translate(542.296875 0)"/>
+     <use xlink:href="#RedHatText-Medium-94" transform="translate(577.109375 0)"/>
+     <use xlink:href="#RedHatText-Medium-b9" transform="translate(633.703125 0)"/>
+     <use xlink:href="#RedHatText-Medium-94" transform="translate(657.609375 0)"/>
+     <use xlink:href="#RedHatText-Medium-7e" transform="translate(713.40625 0)"/>
+     <use xlink:href="#RedHatText-Medium-d7" transform="translate(767.3125 0)"/>
+     <use xlink:href="#RedHatText-Medium-94" transform="translate(814.40625 0)"/>
+     <use xlink:href="#RedHatText-Medium-102" transform="translate(871 0)"/>
+     <use xlink:href="#RedHatText-Medium-9f" transform="translate(893.90625 0)"/>
+     <use xlink:href="#RedHatText-Medium-7e" transform="translate(953.609375 0)"/>
+     <use xlink:href="#RedHatText-Medium-de" transform="translate(1006.015625 0)"/>
+     <use xlink:href="#RedHatText-Medium-94" transform="translate(1044.90625 0)"/>
+    </g>
+   </g>
+   <g id="text_14">
+    <!-- Q8_0 reference -->
+    <g style="fill: #4a5470" transform="translate(526.875468 316.294224) scale(0.085 -0.085)">
+     <defs>
+      <path id="RedHatText-Regular-184" d="M 1920 -70 
+Q 1459 -70 1100 96 
+Q 742 262 534 553 
+Q 326 845 326 1210 
+Q 326 1485 460 1718 
+Q 595 1952 835 2121 
+Q 1075 2291 1382 2362 
+Q 992 2470 745 2752 
+Q 499 3034 499 3386 
+Q 499 3718 684 3980 
+Q 870 4243 1193 4396 
+Q 1517 4550 1920 4550 
+Q 2330 4550 2650 4396 
+Q 2970 4243 3155 3980 
+Q 3341 3718 3341 3386 
+Q 3341 3034 3097 2752 
+Q 2854 2470 2458 2362 
+Q 2925 2253 3219 1936 
+Q 3514 1619 3514 1210 
+Q 3514 845 3309 553 
+Q 3104 262 2742 96 
+Q 2381 -70 1920 -70 
+z
+M 1920 2554 
+Q 2195 2554 2416 2662 
+Q 2637 2771 2765 2953 
+Q 2893 3136 2893 3366 
+Q 2893 3597 2765 3782 
+Q 2637 3968 2416 4073 
+Q 2195 4179 1920 4179 
+Q 1645 4179 1424 4073 
+Q 1203 3968 1075 3782 
+Q 947 3597 947 3366 
+Q 947 3136 1075 2953 
+Q 1203 2771 1424 2662 
+Q 1645 2554 1920 2554 
+z
+M 1920 301 
+Q 2246 301 2502 422 
+Q 2758 544 2908 755 
+Q 3059 966 3059 1229 
+Q 3059 1491 2908 1702 
+Q 2758 1914 2502 2035 
+Q 2246 2157 1920 2157 
+Q 1594 2157 1338 2035 
+Q 1082 1914 931 1702 
+Q 781 1491 781 1229 
+Q 781 966 931 755 
+Q 1082 544 1338 422 
+Q 1594 301 1920 301 
+z
+" transform="scale(0.015625)"/>
+      <path id="RedHatText-Regular-9e" d="M 877 0 
+L 877 2739 
+L 179 2739 
+L 179 3123 
+L 877 3123 
+L 877 3776 
+Q 877 4237 1120 4486 
+Q 1363 4736 1811 4736 
+Q 1939 4736 2044 4723 
+Q 2150 4710 2234 4678 
+L 2234 4256 
+Q 2131 4288 2048 4301 
+Q 1965 4314 1856 4314 
+Q 1587 4314 1465 4182 
+Q 1344 4051 1344 3770 
+L 1344 3123 
+L 2234 3123 
+L 2234 2739 
+L 1344 2739 
+L 1344 0 
+L 877 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="RedHatText-Regular-8a" d="M 1882 -51 
+Q 1446 -51 1097 163 
+Q 749 378 544 746 
+Q 339 1114 339 1562 
+Q 339 2016 544 2381 
+Q 749 2746 1097 2960 
+Q 1446 3174 1882 3174 
+Q 2227 3174 2540 3046 
+Q 2854 2918 3085 2688 
+L 2784 2362 
+Q 2618 2547 2381 2649 
+Q 2144 2752 1901 2752 
+Q 1594 2752 1347 2592 
+Q 1101 2432 953 2163 
+Q 806 1894 806 1562 
+Q 806 1229 953 960 
+Q 1101 691 1347 531 
+Q 1594 371 1901 371 
+Q 2144 371 2381 476 
+Q 2618 582 2784 762 
+L 3085 435 
+Q 2854 205 2540 77 
+Q 2227 -51 1882 -51 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#RedHatText-Regular-52"/>
+     <use xlink:href="#RedHatText-Regular-184" transform="translate(81 0)"/>
+     <use xlink:href="#RedHatText-Regular-120" transform="translate(141 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(186.703125 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(252.703125 0)"/>
+     <use xlink:href="#RedHatText-Regular-d3" transform="translate(276 0)"/>
+     <use xlink:href="#RedHatText-Regular-94" transform="translate(308.203125 0)"/>
+     <use xlink:href="#RedHatText-Regular-9e" transform="translate(362.40625 0)"/>
+     <use xlink:href="#RedHatText-Regular-94" transform="translate(397.40625 0)"/>
+     <use xlink:href="#RedHatText-Regular-d3" transform="translate(453.109375 0)"/>
+     <use xlink:href="#RedHatText-Regular-94" transform="translate(485.3125 0)"/>
+     <use xlink:href="#RedHatText-Regular-bf" transform="translate(541.015625 0)"/>
+     <use xlink:href="#RedHatText-Regular-8a" transform="translate(596.21875 0)"/>
+     <use xlink:href="#RedHatText-Regular-94" transform="translate(645.625 0)"/>
+    </g>
+   </g>
+   <g id="text_15">
+    <g id="patch_5">
+     <path d="M 224.254209 315.98448 
+L 326.062209 315.98448 
+Q 329.002209 315.98448 329.002209 313.04448 
+L 329.002209 264.70206 
+Q 329.002209 261.76206 326.062209 261.76206 
+L 224.254209 261.76206 
+Q 221.314209 261.76206 221.314209 264.70206 
+L 221.314209 313.04448 
+Q 221.314209 315.98448 224.254209 315.98448 
+z
+" style="fill: #f1f4ff; stroke: #d9deea; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <!-- public file vs Daniel's mix -->
+    <g style="fill: #0b1020" transform="translate(229.180678 275.031067) scale(0.084 -0.084)">
+     <defs>
+      <path id="RedHatText-Regular-e3" d="M 1594 -51 
+Q 1261 -51 1005 96 
+Q 749 243 605 505 
+Q 461 768 461 1107 
+L 461 3123 
+L 934 3123 
+L 934 1242 
+Q 934 826 1158 582 
+Q 1382 339 1766 339 
+Q 2029 339 2237 460 
+Q 2445 582 2586 813 
+L 2586 3123 
+L 3053 3123 
+L 3053 0 
+L 2586 0 
+L 2586 506 
+Q 2406 230 2160 89 
+Q 1914 -51 1594 -51 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#RedHatText-Regular-d0"/>
+     <use xlink:href="#RedHatText-Regular-e3" transform="translate(58.296875 0)"/>
+     <use xlink:href="#RedHatText-Regular-89" transform="translate(113.5 0)"/>
+     <use xlink:href="#RedHatText-Regular-b9" transform="translate(171.796875 0)"/>
+     <use xlink:href="#RedHatText-Regular-a7" transform="translate(194.09375 0)"/>
+     <use xlink:href="#RedHatText-Regular-8a" transform="translate(216.296875 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(267.203125 0)"/>
+     <use xlink:href="#RedHatText-Regular-fe" transform="translate(290.5 0)"/>
+     <use xlink:href="#RedHatText-Regular-b9" transform="translate(349.703125 0)"/>
+     <use xlink:href="#RedHatText-Regular-94" transform="translate(372 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(427.703125 0)"/>
+     <use xlink:href="#RedHatText-Regular-ee" transform="translate(451 0)"/>
+     <use xlink:href="#RedHatText-Regular-d7" transform="translate(501.09375 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(546.296875 0)"/>
+     <use xlink:href="#RedHatText-Regular-13" transform="translate(569.59375 0)"/>
+     <use xlink:href="#RedHatText-Regular-7e" transform="translate(641.390625 0)"/>
+     <use xlink:href="#RedHatText-Regular-bf" transform="translate(693.984375 0)"/>
+     <use xlink:href="#RedHatText-Regular-a7" transform="translate(749.1875 0)"/>
+     <use xlink:href="#RedHatText-Regular-94" transform="translate(771.390625 0)"/>
+     <use xlink:href="#RedHatText-Regular-b9" transform="translate(827.09375 0)"/>
+     <use xlink:href="#RedHatText-Regular-136" transform="translate(849.390625 0)"/>
+     <use xlink:href="#RedHatText-Regular-d7" transform="translate(870.796875 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(916 0)"/>
+     <use xlink:href="#RedHatText-Regular-be" transform="translate(939.296875 0)"/>
+     <use xlink:href="#RedHatText-Regular-a7" transform="translate(1023.796875 0)"/>
+     <use xlink:href="#RedHatText-Regular-f4" transform="translate(1046 0)"/>
+    </g>
+    <!-- wiki -0.106 [-0.123, -0.089] -->
+    <g style="fill: #0b1020" transform="translate(224.254209 291.065801) scale(0.084 -0.084)">
+     <defs>
+      <path id="RedHatText-Regular-129" d="M 442 -1376 
+L 442 4480 
+L 1984 4480 
+L 1984 4096 
+L 890 4096 
+L 890 -992 
+L 1984 -992 
+L 1984 -1376 
+L 442 -1376 
+z
+" transform="scale(0.015625)"/>
+      <path id="RedHatText-Regular-10c" d="M 320 -1005 
+L 704 474 
+L 1203 474 
+L 685 -1005 
+L 320 -1005 
+z
+" transform="scale(0.015625)"/>
+      <path id="RedHatText-Regular-185" d="M 1843 4550 
+Q 2362 4550 2755 4275 
+Q 3149 4000 3373 3517 
+Q 3597 3034 3597 2400 
+Q 3597 1658 3347 1104 
+Q 3098 550 2646 243 
+Q 2195 -64 1587 -64 
+Q 1312 -64 1033 16 
+Q 755 96 538 237 
+L 768 595 
+Q 966 480 1187 416 
+Q 1408 352 1626 352 
+Q 2086 352 2422 592 
+Q 2758 832 2944 1283 
+Q 3130 1734 3136 2355 
+Q 2886 2035 2540 1856 
+Q 2195 1677 1824 1677 
+Q 1389 1677 1049 1859 
+Q 710 2042 518 2355 
+Q 326 2669 326 3072 
+Q 326 3501 524 3833 
+Q 723 4166 1065 4358 
+Q 1408 4550 1843 4550 
+z
+M 1888 2054 
+Q 2240 2054 2563 2230 
+Q 2886 2406 3123 2714 
+Q 3078 3149 2905 3469 
+Q 2733 3789 2464 3968 
+Q 2195 4147 1850 4147 
+Q 1542 4147 1302 4009 
+Q 1062 3872 924 3632 
+Q 787 3392 787 3085 
+Q 787 2784 928 2550 
+Q 1069 2317 1315 2185 
+Q 1562 2054 1888 2054 
+z
+" transform="scale(0.015625)"/>
+      <path id="RedHatText-Regular-12a" d="M 1869 4480 
+L 1869 -1376 
+L 326 -1376 
+L 326 -992 
+L 1421 -992 
+L 1421 4096 
+L 326 4096 
+L 326 4480 
+L 1869 4480 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#RedHatText-Regular-ef"/>
+     <use xlink:href="#RedHatText-Regular-a7" transform="translate(69.796875 0)"/>
+     <use xlink:href="#RedHatText-Regular-b6" transform="translate(92 0)"/>
+     <use xlink:href="#RedHatText-Regular-a7" transform="translate(140.90625 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(163.109375 0)"/>
+     <use xlink:href="#RedHatText-Regular-11c" transform="translate(186.40625 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(231.90625 0)"/>
+     <use xlink:href="#RedHatText-Regular-10b" transform="translate(295.40625 0)"/>
+     <use xlink:href="#RedHatText-Regular-17d" transform="translate(315.90625 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(346.609375 0)"/>
+     <use xlink:href="#RedHatText-Regular-182" transform="translate(412.609375 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(472.609375 0)"/>
+     <use xlink:href="#RedHatText-Regular-129" transform="translate(495.90625 0)"/>
+     <use xlink:href="#RedHatText-Regular-11c" transform="translate(532 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(577.5 0)"/>
+     <use xlink:href="#RedHatText-Regular-10b" transform="translate(641 0)"/>
+     <use xlink:href="#RedHatText-Regular-17d" transform="translate(661.5 0)"/>
+     <use xlink:href="#RedHatText-Regular-17e" transform="translate(692.203125 0)"/>
+     <use xlink:href="#RedHatText-Regular-17f" transform="translate(752.203125 0)"/>
+     <use xlink:href="#RedHatText-Regular-10c" transform="translate(810.203125 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(835.203125 0)"/>
+     <use xlink:href="#RedHatText-Regular-11c" transform="translate(858.5 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(904 0)"/>
+     <use xlink:href="#RedHatText-Regular-10b" transform="translate(967.5 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(990 0)"/>
+     <use xlink:href="#RedHatText-Regular-184" transform="translate(1056 0)"/>
+     <use xlink:href="#RedHatText-Regular-185" transform="translate(1114 0)"/>
+     <use xlink:href="#RedHatText-Regular-12a" transform="translate(1175.90625 0)"/>
+    </g>
+    <!-- ood -0.107 [-0.121, -0.094] -->
+    <g style="fill: #0b1020" transform="translate(224.943271 307.179941) scale(0.084 -0.084)">
+     <defs>
+      <path id="RedHatText-Regular-183" d="M 787 0 
+L 3014 4077 
+L 326 4077 
+L 326 4480 
+L 3514 4480 
+L 3514 4122 
+L 1312 0 
+L 787 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#RedHatText-Regular-c5"/>
+     <use xlink:href="#RedHatText-Regular-c5" transform="translate(58 0)"/>
+     <use xlink:href="#RedHatText-Regular-90" transform="translate(116 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(174.203125 0)"/>
+     <use xlink:href="#RedHatText-Regular-11c" transform="translate(197.5 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(243 0)"/>
+     <use xlink:href="#RedHatText-Regular-10b" transform="translate(306.5 0)"/>
+     <use xlink:href="#RedHatText-Regular-17d" transform="translate(327 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(357.703125 0)"/>
+     <use xlink:href="#RedHatText-Regular-183" transform="translate(420.703125 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(480.703125 0)"/>
+     <use xlink:href="#RedHatText-Regular-129" transform="translate(504 0)"/>
+     <use xlink:href="#RedHatText-Regular-11c" transform="translate(540.09375 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(585.59375 0)"/>
+     <use xlink:href="#RedHatText-Regular-10b" transform="translate(649.09375 0)"/>
+     <use xlink:href="#RedHatText-Regular-17d" transform="translate(669.59375 0)"/>
+     <use xlink:href="#RedHatText-Regular-17e" transform="translate(700.296875 0)"/>
+     <use xlink:href="#RedHatText-Regular-17d" transform="translate(760.296875 0)"/>
+     <use xlink:href="#RedHatText-Regular-10c" transform="translate(791 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(816 0)"/>
+     <use xlink:href="#RedHatText-Regular-11c" transform="translate(839.296875 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(884.796875 0)"/>
+     <use xlink:href="#RedHatText-Regular-10b" transform="translate(948.296875 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(970.796875 0)"/>
+     <use xlink:href="#RedHatText-Regular-185" transform="translate(1035.796875 0)"/>
+     <use xlink:href="#RedHatText-Regular-180" transform="translate(1097.703125 0)"/>
+     <use xlink:href="#RedHatText-Regular-12a" transform="translate(1159.5 0)"/>
+    </g>
+   </g>
+   <g id="text_16">
+    <g id="patch_6">
+     <path d="M 381.615526 315.98448 
+L 505.274026 315.98448 
+Q 508.214026 315.98448 508.214026 313.04448 
+L 508.214026 248.58792 
+Q 508.214026 245.64792 505.274026 245.64792 
+L 381.615526 245.64792 
+Q 378.675526 245.64792 378.675526 248.58792 
+L 378.675526 313.04448 
+Q 378.675526 315.98448 381.615526 315.98448 
+z
+" style="fill: #f1f4ff; stroke: #d9deea; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <!-- refined expert codes, same bytes -->
+    <g style="fill: #0b1020" transform="translate(381.615526 258.832927) scale(0.084 -0.084)">
+     <defs>
+      <path id="RedHatText-Regular-f5" d="M 614 -1402 
+Q 467 -1402 314 -1357 
+L 314 -941 
+Q 378 -954 448 -960 
+Q 518 -966 570 -966 
+Q 749 -966 867 -870 
+Q 986 -774 1069 -570 
+L 1299 0 
+L 96 3123 
+L 614 3123 
+L 1562 557 
+L 2566 3123 
+L 3085 3123 
+L 1510 -710 
+Q 1408 -960 1286 -1113 
+Q 1165 -1267 1005 -1334 
+Q 845 -1402 614 -1402 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#RedHatText-Regular-d3"/>
+     <use xlink:href="#RedHatText-Regular-94" transform="translate(32.203125 0)"/>
+     <use xlink:href="#RedHatText-Regular-fe" transform="translate(86.40625 0)"/>
+     <use xlink:href="#RedHatText-Regular-bf" transform="translate(145.609375 0)"/>
+     <use xlink:href="#RedHatText-Regular-94" transform="translate(200.8125 0)"/>
+     <use xlink:href="#RedHatText-Regular-90" transform="translate(256.515625 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(314.71875 0)"/>
+     <use xlink:href="#RedHatText-Regular-94" transform="translate(338.015625 0)"/>
+     <use xlink:href="#RedHatText-Regular-f4" transform="translate(390.71875 0)"/>
+     <use xlink:href="#RedHatText-Regular-d0" transform="translate(439.421875 0)"/>
+     <use xlink:href="#RedHatText-Regular-94" transform="translate(497.71875 0)"/>
+     <use xlink:href="#RedHatText-Regular-d3" transform="translate(553.421875 0)"/>
+     <use xlink:href="#RedHatText-Regular-de" transform="translate(588.625 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(626.421875 0)"/>
+     <use xlink:href="#RedHatText-Regular-8a" transform="translate(649.71875 0)"/>
+     <use xlink:href="#RedHatText-Regular-c5" transform="translate(699.125 0)"/>
+     <use xlink:href="#RedHatText-Regular-90" transform="translate(757.125 0)"/>
+     <use xlink:href="#RedHatText-Regular-94" transform="translate(815.328125 0)"/>
+     <use xlink:href="#RedHatText-Regular-d7" transform="translate(871.53125 0)"/>
+     <use xlink:href="#RedHatText-Regular-10c" transform="translate(915.734375 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(940.734375 0)"/>
+     <use xlink:href="#RedHatText-Regular-d7" transform="translate(964.03125 0)"/>
+     <use xlink:href="#RedHatText-Regular-7e" transform="translate(1009.734375 0)"/>
+     <use xlink:href="#RedHatText-Regular-be" transform="translate(1062.328125 0)"/>
+     <use xlink:href="#RedHatText-Regular-94" transform="translate(1146.828125 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(1202.53125 0)"/>
+     <use xlink:href="#RedHatText-Regular-89" transform="translate(1225.828125 0)"/>
+     <use xlink:href="#RedHatText-Regular-f5" transform="translate(1282.625 0)"/>
+     <use xlink:href="#RedHatText-Regular-de" transform="translate(1333.921875 0)"/>
+     <use xlink:href="#RedHatText-Regular-94" transform="translate(1370.71875 0)"/>
+     <use xlink:href="#RedHatText-Regular-d7" transform="translate(1426.921875 0)"/>
+    </g>
+    <!-- wiki -0.050 [-0.060, -0.040] -->
+    <g style="fill: #0b1020" transform="translate(388.845432 274.951661) scale(0.084 -0.084)">
+     <use xlink:href="#RedHatText-Regular-ef"/>
+     <use xlink:href="#RedHatText-Regular-a7" transform="translate(69.796875 0)"/>
+     <use xlink:href="#RedHatText-Regular-b6" transform="translate(92 0)"/>
+     <use xlink:href="#RedHatText-Regular-a7" transform="translate(140.90625 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(163.109375 0)"/>
+     <use xlink:href="#RedHatText-Regular-11c" transform="translate(186.40625 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(231.90625 0)"/>
+     <use xlink:href="#RedHatText-Regular-10b" transform="translate(295.40625 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(317.90625 0)"/>
+     <use xlink:href="#RedHatText-Regular-181" transform="translate(383.90625 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(443.90625 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(509.90625 0)"/>
+     <use xlink:href="#RedHatText-Regular-129" transform="translate(533.203125 0)"/>
+     <use xlink:href="#RedHatText-Regular-11c" transform="translate(569.296875 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(614.796875 0)"/>
+     <use xlink:href="#RedHatText-Regular-10b" transform="translate(678.296875 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(700.796875 0)"/>
+     <use xlink:href="#RedHatText-Regular-182" transform="translate(766.796875 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(826.796875 0)"/>
+     <use xlink:href="#RedHatText-Regular-10c" transform="translate(890.296875 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(915.296875 0)"/>
+     <use xlink:href="#RedHatText-Regular-11c" transform="translate(938.59375 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(984.09375 0)"/>
+     <use xlink:href="#RedHatText-Regular-10b" transform="translate(1047.59375 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(1070.09375 0)"/>
+     <use xlink:href="#RedHatText-Regular-180" transform="translate(1136.09375 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(1197.890625 0)"/>
+     <use xlink:href="#RedHatText-Regular-12a" transform="translate(1263.890625 0)"/>
+    </g>
+    <!-- ood -0.031 [-0.038, -0.023] -->
+    <g style="fill: #0b1020" transform="translate(390.609432 291.065801) scale(0.084 -0.084)">
+     <use xlink:href="#RedHatText-Regular-c5"/>
+     <use xlink:href="#RedHatText-Regular-c5" transform="translate(58 0)"/>
+     <use xlink:href="#RedHatText-Regular-90" transform="translate(116 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(174.203125 0)"/>
+     <use xlink:href="#RedHatText-Regular-11c" transform="translate(197.5 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(243 0)"/>
+     <use xlink:href="#RedHatText-Regular-10b" transform="translate(306.5 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(329 0)"/>
+     <use xlink:href="#RedHatText-Regular-17f" transform="translate(395 0)"/>
+     <use xlink:href="#RedHatText-Regular-17d" transform="translate(454 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(484.703125 0)"/>
+     <use xlink:href="#RedHatText-Regular-129" transform="translate(508 0)"/>
+     <use xlink:href="#RedHatText-Regular-11c" transform="translate(544.09375 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(589.59375 0)"/>
+     <use xlink:href="#RedHatText-Regular-10b" transform="translate(653.09375 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(675.59375 0)"/>
+     <use xlink:href="#RedHatText-Regular-17f" transform="translate(741.59375 0)"/>
+     <use xlink:href="#RedHatText-Regular-184" transform="translate(800.59375 0)"/>
+     <use xlink:href="#RedHatText-Regular-10c" transform="translate(858.59375 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(883.59375 0)"/>
+     <use xlink:href="#RedHatText-Regular-11c" transform="translate(906.890625 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(952.390625 0)"/>
+     <use xlink:href="#RedHatText-Regular-10b" transform="translate(1015.890625 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(1038.390625 0)"/>
+     <use xlink:href="#RedHatText-Regular-17e" transform="translate(1101.890625 0)"/>
+     <use xlink:href="#RedHatText-Regular-17f" transform="translate(1161.890625 0)"/>
+     <use xlink:href="#RedHatText-Regular-12a" transform="translate(1221.890625 0)"/>
+    </g>
+    <!-- ratios 0.874 / 0.867: rule met -->
+    <g style="fill: #0b1020" transform="translate(388.916964 307.204879) scale(0.084 -0.084)">
+     <defs>
+      <path id="RedHatText-Regular-118" d="M -307 -1338 
+L 2246 4480 
+L 2714 4480 
+L 154 -1338 
+L -307 -1338 
+z
+" transform="scale(0.015625)"/>
+      <path id="RedHatText-Regular-10d" d="M 800 -51 
+Q 659 -51 560 51 
+Q 461 154 461 294 
+Q 461 442 560 541 
+Q 659 640 800 640 
+Q 941 640 1040 541 
+Q 1139 442 1139 294 
+Q 1139 154 1040 51 
+Q 941 -51 800 -51 
+z
+M 800 2490 
+Q 659 2490 560 2592 
+Q 461 2695 461 2835 
+Q 461 2983 560 3082 
+Q 659 3181 800 3181 
+Q 941 3181 1040 3082 
+Q 1139 2983 1139 2835 
+Q 1139 2695 1040 2592 
+Q 941 2490 800 2490 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#RedHatText-Regular-d3"/>
+     <use xlink:href="#RedHatText-Regular-7e" transform="translate(33.203125 0)"/>
+     <use xlink:href="#RedHatText-Regular-de" transform="translate(84.296875 0)"/>
+     <use xlink:href="#RedHatText-Regular-a7" transform="translate(122.09375 0)"/>
+     <use xlink:href="#RedHatText-Regular-c5" transform="translate(144.296875 0)"/>
+     <use xlink:href="#RedHatText-Regular-d7" transform="translate(202.296875 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(247.5 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(270.796875 0)"/>
+     <use xlink:href="#RedHatText-Regular-10b" transform="translate(334.296875 0)"/>
+     <use xlink:href="#RedHatText-Regular-184" transform="translate(357.296875 0)"/>
+     <use xlink:href="#RedHatText-Regular-183" transform="translate(414.796875 0)"/>
+     <use xlink:href="#RedHatText-Regular-180" transform="translate(465.796875 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(527.59375 0)"/>
+     <use xlink:href="#RedHatText-Regular-118" transform="translate(550.890625 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(597.484375 0)"/>
+     <use xlink:href="#RedHatText-Regular-17c" transform="translate(620.78125 0)"/>
+     <use xlink:href="#RedHatText-Regular-10b" transform="translate(684.28125 0)"/>
+     <use xlink:href="#RedHatText-Regular-184" transform="translate(707.28125 0)"/>
+     <use xlink:href="#RedHatText-Regular-182" transform="translate(766.28125 0)"/>
+     <use xlink:href="#RedHatText-Regular-183" transform="translate(823.78125 0)"/>
+     <use xlink:href="#RedHatText-Regular-10d" transform="translate(882.78125 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(907.78125 0)"/>
+     <use xlink:href="#RedHatText-Regular-d3" transform="translate(931.078125 0)"/>
+     <use xlink:href="#RedHatText-Regular-e3" transform="translate(965.28125 0)"/>
+     <use xlink:href="#RedHatText-Regular-b9" transform="translate(1020.484375 0)"/>
+     <use xlink:href="#RedHatText-Regular-94" transform="translate(1042.78125 0)"/>
+     <use xlink:href="#RedHatText-Regular-102" transform="translate(1098.484375 0)"/>
+     <use xlink:href="#RedHatText-Regular-be" transform="translate(1121.78125 0)"/>
+     <use xlink:href="#RedHatText-Regular-94" transform="translate(1206.28125 0)"/>
+     <use xlink:href="#RedHatText-Regular-de" transform="translate(1260.484375 0)"/>
+    </g>
+   </g>
+  </g>
+  <g id="text_17">
+   <!-- From bloomer010's IQ3_XXS to the candidate, step by step -->
+   <g style="fill: #0b1020" transform="translate(12.96 29.382) scale(0.15 -0.15)">
+    <defs>
+     <path id="RedHatDisplay-Bold-21" d="M 435 0 
+L 435 4480 
+L 3814 4480 
+L 3814 3789 
+L 1222 3789 
+L 1222 2566 
+L 2931 2566 
+L 2931 1894 
+L 1222 1894 
+L 1222 0 
+L 435 0 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-d3" d="M 365 0 
+L 365 3296 
+L 1114 3296 
+L 1114 2899 
+Q 1267 3123 1494 3244 
+Q 1722 3366 2003 3366 
+Q 2227 3366 2349 3302 
+L 2349 2637 
+Q 2259 2682 2153 2701 
+Q 2048 2720 1939 2720 
+Q 1670 2720 1456 2579 
+Q 1242 2438 1114 2176 
+L 1114 0 
+L 365 0 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-c5" d="M 1946 -64 
+Q 1459 -64 1065 163 
+Q 672 390 441 777 
+Q 211 1165 211 1645 
+Q 211 2125 441 2512 
+Q 672 2899 1065 3126 
+Q 1459 3354 1946 3354 
+Q 2438 3354 2832 3126 
+Q 3226 2899 3456 2512 
+Q 3686 2125 3686 1645 
+Q 3686 1165 3456 777 
+Q 3226 390 2832 163 
+Q 2438 -64 1946 -64 
+z
+M 1946 589 
+Q 2227 589 2454 729 
+Q 2682 870 2816 1110 
+Q 2950 1350 2950 1645 
+Q 2950 1946 2816 2182 
+Q 2682 2419 2454 2560 
+Q 2227 2701 1946 2701 
+Q 1670 2701 1440 2560 
+Q 1210 2419 1078 2182 
+Q 947 1946 947 1645 
+Q 947 1350 1078 1110 
+Q 1210 870 1440 729 
+Q 1670 589 1946 589 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-be" d="M 365 0 
+L 365 3296 
+L 1114 3296 
+L 1114 3008 
+Q 1472 3360 2003 3360 
+Q 2336 3360 2595 3219 
+Q 2854 3078 3014 2835 
+Q 3213 3091 3491 3225 
+Q 3770 3360 4115 3360 
+Q 4480 3360 4758 3193 
+Q 5037 3027 5197 2736 
+Q 5357 2445 5357 2054 
+L 5357 0 
+L 4614 0 
+L 4614 1939 
+Q 4614 2298 4425 2502 
+Q 4237 2707 3917 2707 
+Q 3699 2707 3520 2611 
+Q 3341 2515 3213 2317 
+Q 3219 2259 3225 2192 
+Q 3232 2125 3232 2054 
+L 3232 0 
+L 2490 0 
+L 2490 1939 
+Q 2490 2298 2301 2502 
+Q 2112 2707 1798 2707 
+Q 1581 2707 1408 2617 
+Q 1235 2528 1114 2355 
+L 1114 0 
+L 365 0 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-102" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-89" d="M 365 0 
+L 365 4480 
+L 1114 4614 
+L 1114 3008 
+Q 1517 3341 2074 3341 
+Q 2547 3341 2924 3113 
+Q 3302 2886 3523 2505 
+Q 3744 2125 3744 1645 
+Q 3744 1171 3520 787 
+Q 3296 403 2915 176 
+Q 2534 -51 2061 -51 
+Q 1798 -51 1552 29 
+Q 1306 109 1101 256 
+L 1101 0 
+L 365 0 
+z
+M 1965 595 
+Q 2266 595 2499 732 
+Q 2733 870 2870 1107 
+Q 3008 1344 3008 1645 
+Q 3008 1946 2870 2182 
+Q 2733 2419 2496 2556 
+Q 2259 2694 1965 2694 
+Q 1709 2694 1488 2601 
+Q 1267 2509 1114 2336 
+L 1114 947 
+Q 1261 781 1488 688 
+Q 1715 595 1965 595 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-b9" d="M 365 0 
+L 365 4480 
+L 1114 4614 
+L 1114 0 
+L 365 0 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-94" d="M 1958 -58 
+Q 1466 -58 1072 166 
+Q 678 390 444 777 
+Q 211 1165 211 1645 
+Q 211 2125 435 2509 
+Q 659 2893 1036 3120 
+Q 1414 3347 1882 3347 
+Q 2349 3347 2710 3116 
+Q 3072 2886 3283 2492 
+Q 3494 2099 3494 1600 
+L 3494 1402 
+L 973 1402 
+Q 1024 1158 1165 972 
+Q 1306 787 1523 681 
+Q 1741 576 1990 576 
+Q 2221 576 2429 646 
+Q 2637 717 2778 851 
+L 3264 390 
+Q 2970 160 2656 51 
+Q 2342 -58 1958 -58 
+z
+M 966 1946 
+L 2752 1946 
+Q 2707 2176 2579 2349 
+Q 2451 2522 2268 2621 
+Q 2086 2720 1869 2720 
+Q 1645 2720 1456 2624 
+Q 1267 2528 1142 2355 
+Q 1018 2182 966 1946 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-17b" d="M 2170 -70 
+Q 1594 -70 1162 221 
+Q 730 512 486 1033 
+Q 243 1555 243 2240 
+Q 243 2925 486 3446 
+Q 730 3968 1162 4259 
+Q 1594 4550 2170 4550 
+Q 2739 4550 3174 4259 
+Q 3610 3968 3853 3446 
+Q 4096 2925 4096 2240 
+Q 4096 1555 3853 1033 
+Q 3610 512 3174 221 
+Q 2739 -70 2170 -70 
+z
+M 2170 582 
+Q 2534 582 2800 784 
+Q 3066 986 3213 1360 
+Q 3360 1734 3360 2240 
+Q 3360 2752 3213 3123 
+Q 3066 3494 2800 3696 
+Q 2534 3898 2170 3898 
+Q 1805 3898 1536 3696 
+Q 1267 3494 1123 3123 
+Q 979 2752 979 2240 
+Q 979 1734 1123 1360 
+Q 1267 986 1536 784 
+Q 1805 582 2170 582 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-17c" d="M 986 0 
+L 986 3712 
+L 147 3360 
+L 147 4019 
+L 1261 4480 
+L 1734 4480 
+L 1734 0 
+L 986 0 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-134" d="M 474 2861 
+L 378 4499 
+L 1114 4499 
+L 1018 2861 
+L 474 2861 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-d7" d="M 1542 -64 
+Q 1101 -64 723 57 
+Q 346 179 70 410 
+L 454 909 
+Q 730 704 995 605 
+Q 1261 506 1530 506 
+Q 1850 506 2048 624 
+Q 2246 742 2246 934 
+Q 2246 1088 2131 1177 
+Q 2016 1267 1773 1306 
+L 1158 1395 
+Q 666 1466 416 1706 
+Q 166 1946 166 2336 
+Q 166 2643 329 2870 
+Q 493 3098 793 3226 
+Q 1094 3354 1498 3354 
+Q 1856 3354 2192 3251 
+Q 2528 3149 2829 2938 
+L 2464 2445 
+Q 2189 2618 1939 2698 
+Q 1690 2778 1434 2778 
+Q 1165 2778 1001 2672 
+Q 838 2566 838 2387 
+Q 838 2227 953 2140 
+Q 1069 2054 1338 2016 
+L 1946 1926 
+Q 2438 1862 2694 1622 
+Q 2950 1382 2950 998 
+Q 2950 691 2764 451 
+Q 2579 211 2262 73 
+Q 1946 -64 1542 -64 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-2a" d="M 435 0 
+L 435 4480 
+L 1222 4480 
+L 1222 0 
+L 435 0 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-52" d="M 3987 -179 
+L 3680 192 
+Q 3443 70 3171 0 
+Q 2899 -70 2598 -70 
+Q 2106 -70 1677 106 
+Q 1248 282 928 598 
+Q 608 915 429 1334 
+Q 250 1754 250 2240 
+Q 250 2726 429 3145 
+Q 608 3565 928 3881 
+Q 1248 4198 1677 4374 
+Q 2106 4550 2598 4550 
+Q 3091 4550 3516 4374 
+Q 3942 4198 4265 3881 
+Q 4589 3565 4768 3145 
+Q 4947 2726 4947 2240 
+Q 4947 1754 4758 1325 
+Q 4570 896 4250 582 
+L 4704 26 
+L 3987 -179 
+z
+M 2598 659 
+Q 2765 659 2915 694 
+Q 3066 730 3194 800 
+L 2662 1446 
+L 3379 1658 
+L 3757 1197 
+Q 3936 1402 4035 1670 
+Q 4134 1939 4134 2240 
+Q 4134 2579 4019 2867 
+Q 3904 3155 3693 3369 
+Q 3482 3584 3203 3702 
+Q 2925 3821 2598 3821 
+Q 2272 3821 1990 3702 
+Q 1709 3584 1501 3369 
+Q 1293 3155 1174 2867 
+Q 1056 2579 1056 2240 
+Q 1056 1907 1174 1616 
+Q 1293 1325 1501 1110 
+Q 1709 896 1990 777 
+Q 2272 659 2598 659 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-17e" d="M 1843 -70 
+Q 1344 -70 912 106 
+Q 480 282 179 608 
+L 659 1062 
+Q 928 787 1193 672 
+Q 1459 557 1830 557 
+Q 2118 557 2336 649 
+Q 2554 742 2675 908 
+Q 2797 1075 2797 1286 
+Q 2797 1485 2697 1635 
+Q 2598 1786 2422 1869 
+Q 2246 1952 2016 1952 
+L 1459 1952 
+L 1459 2554 
+L 1952 2554 
+Q 2278 2554 2467 2733 
+Q 2656 2912 2656 3213 
+Q 2656 3411 2547 3571 
+Q 2438 3731 2249 3820 
+Q 2061 3910 1818 3910 
+Q 1478 3910 1228 3792 
+Q 979 3674 710 3386 
+L 224 3840 
+Q 531 4179 953 4364 
+Q 1376 4550 1837 4550 
+Q 2291 4550 2636 4390 
+Q 2982 4230 3180 3945 
+Q 3379 3661 3379 3290 
+Q 3379 2931 3145 2656 
+Q 2912 2381 2534 2272 
+Q 2982 2176 3251 1897 
+Q 3520 1619 3520 1242 
+Q 3520 864 3305 566 
+Q 3091 269 2710 99 
+Q 2330 -70 1843 -70 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-11e" d="M -6 -1043 
+L -6 -512 
+L 3142 -512 
+L 3142 -1043 
+L -6 -1043 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-74" d="M -6 0 
+L 1709 2317 
+L 90 4480 
+L 1037 4480 
+L 2176 2912 
+L 3315 4480 
+L 4230 4480 
+L 2630 2323 
+L 4365 0 
+L 3418 0 
+L 2163 1728 
+L 909 0 
+L -6 0 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-57" d="M 1984 -64 
+Q 1446 -64 937 144 
+Q 429 352 38 730 
+L 506 1293 
+Q 883 941 1251 774 
+Q 1619 608 2035 608 
+Q 2336 608 2563 691 
+Q 2790 774 2915 924 
+Q 3040 1075 3040 1274 
+Q 3040 1542 2851 1686 
+Q 2662 1830 2214 1901 
+L 1402 2042 
+Q 806 2144 505 2441 
+Q 205 2739 205 3219 
+Q 205 3622 413 3920 
+Q 621 4218 1005 4378 
+Q 1389 4538 1907 4538 
+Q 2394 4538 2874 4378 
+Q 3354 4218 3731 3923 
+L 3296 3328 
+Q 2586 3872 1856 3872 
+Q 1587 3872 1382 3798 
+Q 1178 3725 1066 3593 
+Q 954 3462 954 3283 
+Q 954 3040 1123 2912 
+Q 1293 2784 1677 2720 
+L 2458 2592 
+Q 3155 2477 3488 2169 
+Q 3821 1862 3821 1338 
+Q 3821 915 3593 598 
+Q 3366 282 2953 109 
+Q 2541 -64 1984 -64 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-de" d="M 1843 -58 
+Q 1331 -58 1065 179 
+Q 800 416 800 870 
+L 800 2662 
+L 109 2662 
+L 109 3296 
+L 800 3296 
+L 800 4134 
+L 1549 4307 
+L 1549 3296 
+L 2502 3296 
+L 2502 2662 
+L 1549 2662 
+L 1549 1030 
+Q 1549 787 1654 684 
+Q 1760 582 2016 582 
+Q 2150 582 2256 601 
+Q 2362 621 2483 659 
+L 2483 38 
+Q 2355 -6 2169 -32 
+Q 1984 -58 1843 -58 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-a4" d="M 365 0 
+L 365 4480 
+L 1114 4646 
+L 1114 2989 
+Q 1491 3360 2074 3360 
+Q 2451 3360 2742 3193 
+Q 3034 3027 3200 2736 
+Q 3366 2445 3366 2054 
+L 3366 0 
+L 2618 0 
+L 2618 1939 
+Q 2618 2298 2413 2502 
+Q 2208 2707 1862 2707 
+Q 1619 2707 1430 2608 
+Q 1242 2509 1114 2330 
+L 1114 0 
+L 365 0 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-8a" d="M 1920 -58 
+Q 1440 -58 1053 166 
+Q 666 390 438 777 
+Q 211 1165 211 1645 
+Q 211 2131 438 2515 
+Q 666 2899 1053 3129 
+Q 1440 3360 1920 3360 
+Q 2304 3360 2656 3213 
+Q 3008 3066 3264 2790 
+L 2803 2291 
+Q 2618 2496 2400 2595 
+Q 2182 2694 1939 2694 
+Q 1664 2694 1440 2556 
+Q 1216 2419 1085 2182 
+Q 954 1946 954 1645 
+Q 954 1350 1085 1110 
+Q 1216 870 1446 732 
+Q 1677 595 1952 595 
+Q 2189 595 2397 691 
+Q 2605 787 2790 979 
+L 3245 506 
+Q 2989 237 2643 89 
+Q 2298 -58 1920 -58 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-7e" d="M 1408 -58 
+Q 1056 -58 784 70 
+Q 512 198 358 425 
+Q 205 653 205 947 
+Q 205 1421 560 1683 
+Q 915 1946 1536 1946 
+Q 1997 1946 2394 1792 
+L 2394 2086 
+Q 2394 2406 2205 2566 
+Q 2016 2726 1645 2726 
+Q 1427 2726 1184 2662 
+Q 941 2598 627 2451 
+L 358 3014 
+Q 736 3187 1075 3273 
+Q 1414 3360 1760 3360 
+Q 2413 3360 2771 3046 
+Q 3130 2733 3130 2163 
+L 3130 0 
+L 2394 0 
+L 2394 262 
+Q 2182 96 1939 19 
+Q 1696 -58 1408 -58 
+z
+M 915 966 
+Q 915 749 1100 617 
+Q 1286 486 1594 486 
+Q 1830 486 2032 553 
+Q 2234 621 2394 755 
+L 2394 1280 
+Q 2221 1363 2032 1404 
+Q 1843 1446 1619 1446 
+Q 1293 1446 1104 1318 
+Q 915 1190 915 966 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-bf" d="M 365 0 
+L 365 3296 
+L 1114 3296 
+L 1114 2989 
+Q 1491 3360 2074 3360 
+Q 2451 3360 2742 3193 
+Q 3034 3027 3200 2736 
+Q 3366 2445 3366 2054 
+L 3366 0 
+L 2618 0 
+L 2618 1939 
+Q 2618 2298 2413 2502 
+Q 2208 2707 1862 2707 
+Q 1619 2707 1430 2608 
+Q 1242 2509 1114 2330 
+L 1114 0 
+L 365 0 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-90" d="M 1882 -51 
+Q 1421 -51 1037 176 
+Q 653 403 432 787 
+Q 211 1171 211 1651 
+Q 211 2125 435 2509 
+Q 659 2893 1043 3117 
+Q 1427 3341 1901 3341 
+Q 2157 3341 2400 3267 
+Q 2643 3194 2848 3046 
+L 2848 4480 
+L 3597 4614 
+L 3597 0 
+L 2854 0 
+L 2854 294 
+Q 2445 -51 1882 -51 
+z
+M 1990 595 
+Q 2253 595 2473 688 
+Q 2694 781 2848 960 
+L 2848 2349 
+Q 2694 2515 2473 2608 
+Q 2253 2701 1990 2701 
+Q 1702 2701 1462 2563 
+Q 1222 2426 1084 2189 
+Q 947 1952 947 1651 
+Q 947 1357 1084 1117 
+Q 1222 877 1462 736 
+Q 1702 595 1990 595 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-a7" d="M 365 0 
+L 365 3296 
+L 1114 3296 
+L 1114 0 
+L 365 0 
+z
+M 736 3763 
+Q 557 3763 425 3891 
+Q 294 4019 294 4205 
+Q 294 4390 425 4518 
+Q 557 4646 736 4646 
+Q 922 4646 1050 4518 
+Q 1178 4390 1178 4205 
+Q 1178 4019 1050 3891 
+Q 922 3763 736 3763 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-10c" d="M 102 -941 
+L 518 640 
+L 1306 640 
+L 666 -941 
+L 102 -941 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-d0" d="M 365 -1306 
+L 365 3296 
+L 1101 3296 
+L 1101 2995 
+Q 1510 3341 2074 3341 
+Q 2547 3341 2924 3113 
+Q 3302 2886 3523 2505 
+Q 3744 2125 3744 1645 
+Q 3744 1171 3520 787 
+Q 3296 403 2915 176 
+Q 2534 -51 2061 -51 
+Q 1798 -51 1558 29 
+Q 1318 109 1114 250 
+L 1114 -1306 
+L 365 -1306 
+z
+M 1965 595 
+Q 2266 595 2499 732 
+Q 2733 870 2870 1107 
+Q 3008 1344 3008 1645 
+Q 3008 1946 2870 2182 
+Q 2733 2419 2496 2556 
+Q 2259 2694 1965 2694 
+Q 1709 2694 1488 2601 
+Q 1267 2509 1114 2336 
+L 1114 947 
+Q 1261 781 1488 688 
+Q 1715 595 1965 595 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatDisplay-Bold-f5" d="M 627 -1376 
+Q 525 -1376 425 -1366 
+Q 326 -1357 262 -1338 
+L 262 -691 
+Q 384 -717 557 -717 
+Q 1018 -717 1216 -250 
+L 1312 -19 
+L 13 3296 
+L 838 3296 
+L 1734 909 
+L 2733 3296 
+L 3546 3296 
+L 1984 -339 
+Q 1824 -710 1635 -940 
+Q 1446 -1171 1203 -1273 
+Q 960 -1376 627 -1376 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#RedHatDisplay-Bold-21"/>
+    <use xlink:href="#RedHatDisplay-Bold-d3" transform="translate(57.609375 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-c5" transform="translate(93.90625 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-be" transform="translate(154.8125 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-102" transform="translate(243.90625 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-89" transform="translate(264.40625 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-b9" transform="translate(326.203125 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-c5" transform="translate(349.203125 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-c5" transform="translate(410.109375 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-be" transform="translate(471.015625 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-94" transform="translate(560.109375 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-d3" transform="translate(618.015625 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-17b" transform="translate(656.8125 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-17c" transform="translate(724.109375 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-17b" transform="translate(757.109375 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-134" transform="translate(824.90625 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-d7" transform="translate(848.109375 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-102" transform="translate(895.8125 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-2a" transform="translate(916.3125 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-52" transform="translate(942.21875 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-17e" transform="translate(1023.3125 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-11e" transform="translate(1083.3125 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-74" transform="translate(1132.3125 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-74" transform="translate(1201.8125 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-57" transform="translate(1269.8125 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-102" transform="translate(1332.015625 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-de" transform="translate(1352.515625 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-c5" transform="translate(1392.3125 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-102" transform="translate(1453.21875 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-de" transform="translate(1473.71875 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-a4" transform="translate(1515.3125 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-94" transform="translate(1573.21875 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-102" transform="translate(1631.125 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-8a" transform="translate(1651.625 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-7e" transform="translate(1704.21875 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-bf" transform="translate(1758.515625 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-90" transform="translate(1816.421875 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-a7" transform="translate(1878.21875 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-90" transform="translate(1901.21875 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-7e" transform="translate(1963.015625 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-de" transform="translate(2015.8125 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-94" transform="translate(2055.609375 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-10c" transform="translate(2110.515625 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-102" transform="translate(2135.515625 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-d7" transform="translate(2156.015625 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-de" transform="translate(2202.71875 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-94" transform="translate(2242.515625 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-d0" transform="translate(2300.421875 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-102" transform="translate(2362.21875 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-89" transform="translate(2382.71875 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-f5" transform="translate(2443.015625 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-102" transform="translate(2498.609375 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-d7" transform="translate(2519.109375 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-de" transform="translate(2565.8125 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-94" transform="translate(2605.609375 0)"/>
+    <use xlink:href="#RedHatDisplay-Bold-d0" transform="translate(2663.515625 0)"/>
+   </g>
+  </g>
+  <g id="text_18">
+   <!-- Selection sets (wiki.test, eval-ood; 64 × 512), not the release test. Boxes: paired difference per step [95% CI]. -->
+   <g style="fill: #4a5470" transform="translate(12.96 54.532) scale(0.1 -0.1)">
+    <defs>
+     <path id="RedHatText-Regular-10e" d="M 851 2490 
+Q 710 2490 611 2592 
+Q 512 2695 512 2835 
+Q 512 2983 611 3082 
+Q 710 3181 851 3181 
+Q 992 3181 1091 3082 
+Q 1190 2983 1190 2835 
+Q 1190 2695 1091 2592 
+Q 992 2490 851 2490 
+z
+M 275 -1005 
+L 659 474 
+L 1158 474 
+L 640 -1005 
+L 275 -1005 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatText-Regular-14f" d="M 966 1037 
+L 730 1293 
+L 1670 2298 
+L 730 3302 
+L 973 3565 
+L 1914 2560 
+L 2854 3565 
+L 3104 3309 
+L 2157 2304 
+L 3110 1293 
+L 2854 1030 
+L 1907 2042 
+L 966 1037 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatText-Regular-a4" d="M 480 0 
+L 480 4621 
+L 947 4717 
+L 947 2618 
+Q 1126 2899 1376 3036 
+Q 1626 3174 1939 3174 
+Q 2278 3174 2531 3030 
+Q 2784 2886 2928 2627 
+Q 3072 2368 3072 2022 
+L 3072 0 
+L 2605 0 
+L 2605 1888 
+Q 2605 2304 2377 2544 
+Q 2150 2784 1766 2784 
+Q 1510 2784 1299 2662 
+Q 1088 2541 947 2304 
+L 947 0 
+L 480 0 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatText-Regular-15a" d="M 1120 2208 
+Q 704 2208 445 2528 
+Q 186 2848 186 3360 
+Q 186 3872 445 4192 
+Q 704 4512 1120 4512 
+Q 1536 4512 1795 4192 
+Q 2054 3872 2054 3360 
+Q 2054 2848 1795 2528 
+Q 1536 2208 1120 2208 
+z
+M 1120 2496 
+Q 1402 2496 1568 2729 
+Q 1734 2963 1734 3360 
+Q 1734 3757 1568 3990 
+Q 1402 4224 1120 4224 
+Q 845 4224 675 3990 
+Q 506 3757 506 3360 
+Q 506 2963 675 2729 
+Q 845 2496 1120 2496 
+z
+M 922 0 
+L 3437 4480 
+L 3808 4480 
+L 1287 0 
+L 922 0 
+z
+M 3616 -32 
+Q 3200 -32 2941 288 
+Q 2682 608 2682 1120 
+Q 2682 1632 2941 1952 
+Q 3200 2272 3616 2272 
+Q 4032 2272 4291 1952 
+Q 4550 1632 4550 1120 
+Q 4550 608 4291 288 
+Q 4032 -32 3616 -32 
+z
+M 3616 256 
+Q 3898 256 4064 489 
+Q 4230 723 4230 1120 
+Q 4230 1517 4064 1750 
+Q 3898 1984 3616 1984 
+Q 3341 1984 3171 1750 
+Q 3002 1517 3002 1120 
+Q 3002 723 3171 489 
+Q 3341 256 3616 256 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatText-Regular-d" d="M 2637 -70 
+Q 2157 -70 1744 106 
+Q 1331 282 1017 598 
+Q 704 915 531 1334 
+Q 358 1754 358 2240 
+Q 358 2726 531 3145 
+Q 704 3565 1017 3881 
+Q 1331 4198 1744 4374 
+Q 2157 4550 2637 4550 
+Q 2970 4550 3274 4464 
+Q 3578 4378 3846 4214 
+Q 4115 4051 4326 3814 
+L 4000 3475 
+Q 3750 3776 3388 3939 
+Q 3027 4102 2637 4102 
+Q 2259 4102 1932 3961 
+Q 1606 3821 1366 3565 
+Q 1126 3309 992 2973 
+Q 858 2637 858 2240 
+Q 858 1850 992 1510 
+Q 1126 1171 1366 915 
+Q 1606 659 1932 518 
+Q 2259 378 2637 378 
+Q 3027 378 3388 544 
+Q 3750 710 4000 1005 
+L 4326 666 
+Q 4115 429 3846 265 
+Q 3578 102 3274 16 
+Q 2970 -70 2637 -70 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#RedHatText-Regular-57"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(63.296875 0)"/>
+    <use xlink:href="#RedHatText-Regular-b9" transform="translate(119 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(141.296875 0)"/>
+    <use xlink:href="#RedHatText-Regular-8a" transform="translate(197 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(248.90625 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(286.703125 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(308.90625 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(366.90625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(422.109375 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(445.40625 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(491.109375 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(545.3125 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(584.109375 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(629.3125 0)"/>
+    <use xlink:href="#RedHatText-Regular-125" transform="translate(652.609375 0)"/>
+    <use xlink:href="#RedHatText-Regular-ef" transform="translate(692.703125 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(762.5 0)"/>
+    <use xlink:href="#RedHatText-Regular-b6" transform="translate(784.703125 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(833.609375 0)"/>
+    <use xlink:href="#RedHatText-Regular-10b" transform="translate(855.8125 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(874.8125 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(911.609375 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(967.8125 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(1012.015625 0)"/>
+    <use xlink:href="#RedHatText-Regular-10c" transform="translate(1049.8125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(1074.8125 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(1098.109375 0)"/>
+    <use xlink:href="#RedHatText-Regular-ee" transform="translate(1152.3125 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(1200.40625 0)"/>
+    <use xlink:href="#RedHatText-Regular-b9" transform="translate(1253 0)"/>
+    <use xlink:href="#RedHatText-Regular-11c" transform="translate(1275.296875 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(1321.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(1379.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(1437.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-10e" transform="translate(1496 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(1521 0)"/>
+    <use xlink:href="#RedHatText-Regular-182" transform="translate(1544.296875 0)"/>
+    <use xlink:href="#RedHatText-Regular-180" transform="translate(1604.296875 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(1666.09375 0)"/>
+    <use xlink:href="#RedHatText-Regular-14f" transform="translate(1689.390625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(1749.390625 0)"/>
+    <use xlink:href="#RedHatText-Regular-181" transform="translate(1772.6875 0)"/>
+    <use xlink:href="#RedHatText-Regular-17d" transform="translate(1831.1875 0)"/>
+    <use xlink:href="#RedHatText-Regular-17e" transform="translate(1861.890625 0)"/>
+    <use xlink:href="#RedHatText-Regular-126" transform="translate(1921.890625 0)"/>
+    <use xlink:href="#RedHatText-Regular-10c" transform="translate(1961.984375 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(1986.984375 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(2010.28125 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(2065.484375 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(2120.484375 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(2158.28125 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(2181.578125 0)"/>
+    <use xlink:href="#RedHatText-Regular-a4" transform="translate(2219.375 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(2274.578125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(2330.28125 0)"/>
+    <use xlink:href="#RedHatText-Regular-d3" transform="translate(2353.578125 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(2385.78125 0)"/>
+    <use xlink:href="#RedHatText-Regular-b9" transform="translate(2441.484375 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(2463.78125 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(2518.484375 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(2571.078125 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(2616.78125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(2672.484375 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(2695.78125 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(2732.578125 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(2788.78125 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(2832.984375 0)"/>
+    <use xlink:href="#RedHatText-Regular-10b" transform="translate(2870.78125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(2895.78125 0)"/>
+    <use xlink:href="#RedHatText-Regular-c" transform="translate(2919.078125 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(2984.984375 0)"/>
+    <use xlink:href="#RedHatText-Regular-f4" transform="translate(3038.984375 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(3087.6875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(3143.890625 0)"/>
+    <use xlink:href="#RedHatText-Regular-10d" transform="translate(3189.09375 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(3214.09375 0)"/>
+    <use xlink:href="#RedHatText-Regular-d0" transform="translate(3237.390625 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(3296.1875 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(3348.78125 0)"/>
+    <use xlink:href="#RedHatText-Regular-d3" transform="translate(3370.984375 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(3403.1875 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(3458.890625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(3517.09375 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(3540.390625 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(3598.59375 0)"/>
+    <use xlink:href="#RedHatText-Regular-9e" transform="translate(3620.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-9e" transform="translate(3658.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(3693.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d3" transform="translate(3749.5 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(3781.703125 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(3837.40625 0)"/>
+    <use xlink:href="#RedHatText-Regular-8a" transform="translate(3892.609375 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(3942.015625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(3997.71875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d0" transform="translate(4021.015625 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(4079.3125 0)"/>
+    <use xlink:href="#RedHatText-Regular-d3" transform="translate(4135.015625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(4170.21875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(4193.515625 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(4237.71875 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(4274.515625 0)"/>
+    <use xlink:href="#RedHatText-Regular-d0" transform="translate(4330.21875 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(4388.515625 0)"/>
+    <use xlink:href="#RedHatText-Regular-129" transform="translate(4411.8125 0)"/>
+    <use xlink:href="#RedHatText-Regular-185" transform="translate(4447.90625 0)"/>
+    <use xlink:href="#RedHatText-Regular-181" transform="translate(4509.8125 0)"/>
+    <use xlink:href="#RedHatText-Regular-15a" transform="translate(4569.8125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(4643.71875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d" transform="translate(4667.015625 0)"/>
+    <use xlink:href="#RedHatText-Regular-2a" transform="translate(4739.609375 0)"/>
+    <use xlink:href="#RedHatText-Regular-12a" transform="translate(4764.90625 0)"/>
+    <use xlink:href="#RedHatText-Regular-10b" transform="translate(4801 0)"/>
+   </g>
+  </g>
+  <g id="text_19">
+   <!-- Slate: public file vs Daniel's mix (allocation, calibration and recipe all differ); gradient: refined codes at equal bytes. -->
+   <g style="fill: #4a5470" transform="translate(12.96 74.692) scale(0.1 -0.1)">
+    <defs>
+     <path id="RedHatText-Regular-9f" d="M 1926 -1402 
+Q 1613 -1402 1296 -1315 
+Q 979 -1229 710 -1075 
+L 909 -717 
+Q 1197 -864 1433 -934 
+Q 1670 -1005 1907 -1005 
+Q 2336 -1005 2557 -800 
+Q 2778 -595 2778 -205 
+L 2778 422 
+Q 2598 198 2342 80 
+Q 2086 -38 1779 -38 
+Q 1376 -38 1049 176 
+Q 723 390 531 752 
+Q 339 1114 339 1562 
+Q 339 2010 534 2371 
+Q 730 2733 1062 2947 
+Q 1395 3162 1805 3162 
+Q 2099 3162 2348 3050 
+Q 2598 2938 2784 2720 
+L 2784 3123 
+L 3245 3123 
+L 3245 -198 
+Q 3245 -781 2905 -1091 
+Q 2566 -1402 1926 -1402 
+z
+M 1894 365 
+Q 2170 365 2400 477 
+Q 2630 589 2778 787 
+L 2778 2330 
+Q 2624 2528 2390 2640 
+Q 2157 2752 1894 2752 
+Q 1581 2752 1334 2598 
+Q 1088 2445 944 2176 
+Q 800 1907 800 1562 
+Q 800 1222 944 950 
+Q 1088 678 1334 521 
+Q 1581 365 1894 365 
+z
+" transform="scale(0.015625)"/>
+     <path id="RedHatText-Regular-d2" d="M 2778 -1338 
+L 2778 416 
+Q 2598 192 2342 73 
+Q 2086 -45 1779 -45 
+Q 1376 -45 1049 169 
+Q 723 384 531 745 
+Q 339 1107 339 1555 
+Q 339 2010 534 2371 
+Q 730 2733 1062 2947 
+Q 1395 3162 1805 3162 
+Q 2093 3162 2342 3050 
+Q 2592 2938 2778 2726 
+L 2778 3123 
+L 3245 3123 
+L 3245 -1338 
+L 2778 -1338 
+z
+M 1894 365 
+Q 2170 365 2400 473 
+Q 2630 582 2778 781 
+L 2778 2330 
+Q 2624 2528 2390 2640 
+Q 2157 2752 1894 2752 
+Q 1581 2752 1334 2598 
+Q 1088 2445 944 2176 
+Q 800 1907 800 1562 
+Q 800 1222 944 950 
+Q 1088 678 1334 521 
+Q 1581 365 1894 365 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#RedHatText-Regular-57"/>
+    <use xlink:href="#RedHatText-Regular-b9" transform="translate(62.296875 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(84.59375 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(135.6875 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(172.484375 0)"/>
+    <use xlink:href="#RedHatText-Regular-10d" transform="translate(228.1875 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(253.1875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d0" transform="translate(276.484375 0)"/>
+    <use xlink:href="#RedHatText-Regular-e3" transform="translate(334.78125 0)"/>
+    <use xlink:href="#RedHatText-Regular-89" transform="translate(389.984375 0)"/>
+    <use xlink:href="#RedHatText-Regular-b9" transform="translate(448.28125 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(470.578125 0)"/>
+    <use xlink:href="#RedHatText-Regular-8a" transform="translate(492.78125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(543.6875 0)"/>
+    <use xlink:href="#RedHatText-Regular-fe" transform="translate(566.984375 0)"/>
+    <use xlink:href="#RedHatText-Regular-b9" transform="translate(626.1875 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(648.484375 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(704.1875 0)"/>
+    <use xlink:href="#RedHatText-Regular-ee" transform="translate(727.484375 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(777.578125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(822.78125 0)"/>
+    <use xlink:href="#RedHatText-Regular-13" transform="translate(846.078125 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(917.875 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(970.46875 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(1025.671875 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(1047.875 0)"/>
+    <use xlink:href="#RedHatText-Regular-b9" transform="translate(1103.578125 0)"/>
+    <use xlink:href="#RedHatText-Regular-136" transform="translate(1125.875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(1147.28125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(1192.484375 0)"/>
+    <use xlink:href="#RedHatText-Regular-be" transform="translate(1215.78125 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(1300.28125 0)"/>
+    <use xlink:href="#RedHatText-Regular-f4" transform="translate(1322.484375 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(1371.1875 0)"/>
+    <use xlink:href="#RedHatText-Regular-125" transform="translate(1394.484375 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(1434.578125 0)"/>
+    <use xlink:href="#RedHatText-Regular-b9" transform="translate(1487.171875 0)"/>
+    <use xlink:href="#RedHatText-Regular-b9" transform="translate(1509.46875 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(1531.765625 0)"/>
+    <use xlink:href="#RedHatText-Regular-8a" transform="translate(1589.765625 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(1640.671875 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(1691.765625 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(1729.5625 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(1751.765625 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(1809.765625 0)"/>
+    <use xlink:href="#RedHatText-Regular-10c" transform="translate(1864.96875 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(1889.96875 0)"/>
+    <use xlink:href="#RedHatText-Regular-8a" transform="translate(1913.265625 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(1964.171875 0)"/>
+    <use xlink:href="#RedHatText-Regular-b9" transform="translate(2016.765625 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(2039.0625 0)"/>
+    <use xlink:href="#RedHatText-Regular-89" transform="translate(2061.265625 0)"/>
+    <use xlink:href="#RedHatText-Regular-d3" transform="translate(2119.5625 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(2152.765625 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(2203.859375 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(2241.65625 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(2263.859375 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(2321.859375 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(2377.0625 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(2400.359375 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(2452.953125 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(2508.15625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(2566.359375 0)"/>
+    <use xlink:href="#RedHatText-Regular-d3" transform="translate(2589.65625 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(2621.859375 0)"/>
+    <use xlink:href="#RedHatText-Regular-8a" transform="translate(2677.5625 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(2728.46875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d0" transform="translate(2750.671875 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(2808.96875 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(2864.671875 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(2887.96875 0)"/>
+    <use xlink:href="#RedHatText-Regular-b9" transform="translate(2940.5625 0)"/>
+    <use xlink:href="#RedHatText-Regular-b9" transform="translate(2962.859375 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(2985.15625 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(3008.453125 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(3066.65625 0)"/>
+    <use xlink:href="#RedHatText-Regular-9e" transform="translate(3088.859375 0)"/>
+    <use xlink:href="#RedHatText-Regular-9e" transform="translate(3126.859375 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(3161.859375 0)"/>
+    <use xlink:href="#RedHatText-Regular-d3" transform="translate(3217.5625 0)"/>
+    <use xlink:href="#RedHatText-Regular-126" transform="translate(3252.765625 0)"/>
+    <use xlink:href="#RedHatText-Regular-10e" transform="translate(3292.859375 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(3317.859375 0)"/>
+    <use xlink:href="#RedHatText-Regular-9f" transform="translate(3341.15625 0)"/>
+    <use xlink:href="#RedHatText-Regular-d3" transform="translate(3399.359375 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(3432.5625 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(3485.15625 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(3543.359375 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(3565.5625 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(3621.265625 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(3674.96875 0)"/>
+    <use xlink:href="#RedHatText-Regular-10d" transform="translate(3712.765625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(3737.765625 0)"/>
+    <use xlink:href="#RedHatText-Regular-d3" transform="translate(3761.0625 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(3793.265625 0)"/>
+    <use xlink:href="#RedHatText-Regular-fe" transform="translate(3847.46875 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(3906.671875 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(3961.875 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(4017.578125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(4075.78125 0)"/>
+    <use xlink:href="#RedHatText-Regular-8a" transform="translate(4099.078125 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(4148.484375 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(4206.484375 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(4264.6875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(4320.890625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(4366.09375 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(4389.390625 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(4440.484375 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(4478.28125 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(4501.578125 0)"/>
+    <use xlink:href="#RedHatText-Regular-d2" transform="translate(4557.28125 0)"/>
+    <use xlink:href="#RedHatText-Regular-e3" transform="translate(4615.484375 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(4670.6875 0)"/>
+    <use xlink:href="#RedHatText-Regular-b9" transform="translate(4723.28125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(4745.578125 0)"/>
+    <use xlink:href="#RedHatText-Regular-89" transform="translate(4768.875 0)"/>
+    <use xlink:href="#RedHatText-Regular-f5" transform="translate(4825.671875 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(4876.96875 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(4913.765625 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(4969.96875 0)"/>
+    <use xlink:href="#RedHatText-Regular-10b" transform="translate(5014.171875 0)"/>
+   </g>
+  </g>
+  <g id="text_20">
+   <!-- m2 was chosen among candidates scored on the first 16 wiki chunks and the refiner tuned on these texts: gaps are optimistic. -->
+   <g style="fill: #4a5470" transform="translate(12.96 376.992) scale(0.09 -0.09)">
+    <use xlink:href="#RedHatText-Regular-be"/>
+    <use xlink:href="#RedHatText-Regular-17e" transform="translate(84.5 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(144.5 0)"/>
+    <use xlink:href="#RedHatText-Regular-ef" transform="translate(167.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(237.09375 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(289.6875 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(334.890625 0)"/>
+    <use xlink:href="#RedHatText-Regular-8a" transform="translate(358.1875 0)"/>
+    <use xlink:href="#RedHatText-Regular-a4" transform="translate(409.09375 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(464.296875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(522.296875 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(568 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(623.703125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(678.90625 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(702.203125 0)"/>
+    <use xlink:href="#RedHatText-Regular-be" transform="translate(754.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(839.296875 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(897.296875 0)"/>
+    <use xlink:href="#RedHatText-Regular-9f" transform="translate(952.5 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(1010.703125 0)"/>
+    <use xlink:href="#RedHatText-Regular-8a" transform="translate(1034 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(1084.90625 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(1137.5 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(1192.703125 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(1250.90625 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(1273.109375 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(1331.3125 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(1382.40625 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(1419.203125 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(1475.40625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(1520.609375 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(1543.90625 0)"/>
+    <use xlink:href="#RedHatText-Regular-8a" transform="translate(1589.609375 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(1639.015625 0)"/>
+    <use xlink:href="#RedHatText-Regular-d3" transform="translate(1697.015625 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(1729.21875 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(1784.921875 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(1843.125 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(1866.421875 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(1924.421875 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(1979.625 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(2002.921875 0)"/>
+    <use xlink:href="#RedHatText-Regular-a4" transform="translate(2040.71875 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(2095.921875 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(2151.625 0)"/>
+    <use xlink:href="#RedHatText-Regular-fe" transform="translate(2174.921875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d3" transform="translate(2234.125 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(2268.828125 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(2313.03125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(2350.828125 0)"/>
+    <use xlink:href="#RedHatText-Regular-17d" transform="translate(2374.125 0)"/>
+    <use xlink:href="#RedHatText-Regular-182" transform="translate(2404.828125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(2464.828125 0)"/>
+    <use xlink:href="#RedHatText-Regular-ef" transform="translate(2488.125 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(2557.921875 0)"/>
+    <use xlink:href="#RedHatText-Regular-b6" transform="translate(2580.125 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(2629.03125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(2651.234375 0)"/>
+    <use xlink:href="#RedHatText-Regular-8a" transform="translate(2674.53125 0)"/>
+    <use xlink:href="#RedHatText-Regular-a4" transform="translate(2725.4375 0)"/>
+    <use xlink:href="#RedHatText-Regular-e3" transform="translate(2780.140625 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(2835.34375 0)"/>
+    <use xlink:href="#RedHatText-Regular-b6" transform="translate(2890.546875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(2938.453125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(2983.65625 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(3006.953125 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(3059.546875 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(3114.75 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(3172.953125 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(3196.25 0)"/>
+    <use xlink:href="#RedHatText-Regular-a4" transform="translate(3234.046875 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(3289.25 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(3344.953125 0)"/>
+    <use xlink:href="#RedHatText-Regular-d3" transform="translate(3368.25 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(3400.453125 0)"/>
+    <use xlink:href="#RedHatText-Regular-fe" transform="translate(3454.65625 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(3513.859375 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(3569.0625 0)"/>
+    <use xlink:href="#RedHatText-Regular-d3" transform="translate(3624.765625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(3659.96875 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(3683.265625 0)"/>
+    <use xlink:href="#RedHatText-Regular-e3" transform="translate(3721.0625 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(3776.265625 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(3831.46875 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(3887.171875 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(3945.375 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(3968.671875 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(4026.671875 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(4081.875 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(4105.171875 0)"/>
+    <use xlink:href="#RedHatText-Regular-a4" transform="translate(4142.96875 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(4198.171875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(4254.375 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(4300.078125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(4355.78125 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(4379.078125 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(4415.875 0)"/>
+    <use xlink:href="#RedHatText-Regular-f4" transform="translate(4468.578125 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(4516.28125 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(4555.078125 0)"/>
+    <use xlink:href="#RedHatText-Regular-10d" transform="translate(4600.28125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(4625.28125 0)"/>
+    <use xlink:href="#RedHatText-Regular-9f" transform="translate(4648.578125 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(4706.78125 0)"/>
+    <use xlink:href="#RedHatText-Regular-d0" transform="translate(4759.375 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(4817.671875 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(4862.875 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(4886.171875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d3" transform="translate(4938.765625 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(4970.96875 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(5026.671875 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(5049.96875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d0" transform="translate(5107.96875 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(5163.265625 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(5201.0625 0)"/>
+    <use xlink:href="#RedHatText-Regular-be" transform="translate(5223.265625 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(5307.765625 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(5329.96875 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(5374.171875 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(5411.96875 0)"/>
+    <use xlink:href="#RedHatText-Regular-8a" transform="translate(5434.171875 0)"/>
+    <use xlink:href="#RedHatText-Regular-10b" transform="translate(5484.078125 0)"/>
+   </g>
+  </g>
+  <g id="text_21">
+   <!-- m2rd (+ refined KDA gates) tested, not adopted (CI vs m2r not below 0 on both sets): wiki.test -0.0040 [-0.0087, +0.0008]; eval-ood -0.0023 [-0.0049, +0.0002] -->
+   <g style="fill: #4a5470" transform="translate(12.96 393.12) scale(0.085 -0.085)">
+    <defs>
+     <path id="RedHatText-Regular-1" d="M 58 0 
+L 1830 4480 
+L 2419 4480 
+L 4166 0 
+L 3635 0 
+L 3104 1408 
+L 1107 1408 
+L 576 0 
+L 58 0 
+z
+M 1261 1798 
+L 2957 1798 
+L 2106 4032 
+L 1261 1798 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#RedHatText-Regular-be"/>
+    <use xlink:href="#RedHatText-Regular-17e" transform="translate(84.5 0)"/>
+    <use xlink:href="#RedHatText-Regular-d3" transform="translate(144.5 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(176.703125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(234.90625 0)"/>
+    <use xlink:href="#RedHatText-Regular-125" transform="translate(258.203125 0)"/>
+    <use xlink:href="#RedHatText-Regular-14d" transform="translate(298.296875 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(358.296875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d3" transform="translate(381.59375 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(413.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-fe" transform="translate(468 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(527.203125 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(582.40625 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(638.109375 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(696.3125 0)"/>
+    <use xlink:href="#RedHatText-Regular-37" transform="translate(719.609375 0)"/>
+    <use xlink:href="#RedHatText-Regular-13" transform="translate(779.609375 0)"/>
+    <use xlink:href="#RedHatText-Regular-1" transform="translate(849.40625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(915.40625 0)"/>
+    <use xlink:href="#RedHatText-Regular-9f" transform="translate(938.703125 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(996.90625 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(1048 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(1084.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(1141 0)"/>
+    <use xlink:href="#RedHatText-Regular-126" transform="translate(1186.203125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(1226.296875 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(1249.59375 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(1286.390625 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(1342.59375 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(1386.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(1423.59375 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(1479.296875 0)"/>
+    <use xlink:href="#RedHatText-Regular-10c" transform="translate(1537.5 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(1562.5 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(1585.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(1641 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(1696 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(1733.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(1757.09375 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(1809.6875 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(1867.890625 0)"/>
+    <use xlink:href="#RedHatText-Regular-d0" transform="translate(1925.890625 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(1981.1875 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(2017.984375 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(2073.6875 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(2131.890625 0)"/>
+    <use xlink:href="#RedHatText-Regular-125" transform="translate(2155.1875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d" transform="translate(2194.78125 0)"/>
+    <use xlink:href="#RedHatText-Regular-2a" transform="translate(2267.375 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(2292.671875 0)"/>
+    <use xlink:href="#RedHatText-Regular-ee" transform="translate(2315.96875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(2366.0625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(2411.265625 0)"/>
+    <use xlink:href="#RedHatText-Regular-be" transform="translate(2434.5625 0)"/>
+    <use xlink:href="#RedHatText-Regular-17e" transform="translate(2519.0625 0)"/>
+    <use xlink:href="#RedHatText-Regular-d3" transform="translate(2579.0625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(2614.265625 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(2637.5625 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(2692.765625 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(2747.765625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(2785.5625 0)"/>
+    <use xlink:href="#RedHatText-Regular-89" transform="translate(2808.859375 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(2867.15625 0)"/>
+    <use xlink:href="#RedHatText-Regular-b9" transform="translate(2922.859375 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(2945.15625 0)"/>
+    <use xlink:href="#RedHatText-Regular-ef" transform="translate(3002.15625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(3071.953125 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(3095.25 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(3161.25 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(3184.546875 0)"/>
+    <use xlink:href="#RedHatText-Regular-bf" transform="translate(3242.546875 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(3297.75 0)"/>
+    <use xlink:href="#RedHatText-Regular-89" transform="translate(3321.046875 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(3379.34375 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(3434.34375 0)"/>
+    <use xlink:href="#RedHatText-Regular-a4" transform="translate(3472.140625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(3527.34375 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(3550.640625 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(3596.34375 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(3650.546875 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(3689.34375 0)"/>
+    <use xlink:href="#RedHatText-Regular-126" transform="translate(3734.546875 0)"/>
+    <use xlink:href="#RedHatText-Regular-10d" transform="translate(3774.640625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(3799.640625 0)"/>
+    <use xlink:href="#RedHatText-Regular-ef" transform="translate(3822.9375 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(3892.734375 0)"/>
+    <use xlink:href="#RedHatText-Regular-b6" transform="translate(3914.9375 0)"/>
+    <use xlink:href="#RedHatText-Regular-a7" transform="translate(3963.84375 0)"/>
+    <use xlink:href="#RedHatText-Regular-10b" transform="translate(3986.046875 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(4005.046875 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(4041.84375 0)"/>
+    <use xlink:href="#RedHatText-Regular-d7" transform="translate(4098.046875 0)"/>
+    <use xlink:href="#RedHatText-Regular-de" transform="translate(4142.25 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(4180.046875 0)"/>
+    <use xlink:href="#RedHatText-Regular-11c" transform="translate(4203.34375 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(4248.84375 0)"/>
+    <use xlink:href="#RedHatText-Regular-10b" transform="translate(4312.34375 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(4334.84375 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(4400.84375 0)"/>
+    <use xlink:href="#RedHatText-Regular-180" transform="translate(4466.84375 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(4528.640625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(4594.640625 0)"/>
+    <use xlink:href="#RedHatText-Regular-129" transform="translate(4617.9375 0)"/>
+    <use xlink:href="#RedHatText-Regular-11c" transform="translate(4654.03125 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(4699.53125 0)"/>
+    <use xlink:href="#RedHatText-Regular-10b" transform="translate(4763.03125 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(4785.53125 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(4851.53125 0)"/>
+    <use xlink:href="#RedHatText-Regular-184" transform="translate(4917.53125 0)"/>
+    <use xlink:href="#RedHatText-Regular-183" transform="translate(4975.03125 0)"/>
+    <use xlink:href="#RedHatText-Regular-10c" transform="translate(5023.03125 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(5048.03125 0)"/>
+    <use xlink:href="#RedHatText-Regular-14d" transform="translate(5071.328125 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(5131.328125 0)"/>
+    <use xlink:href="#RedHatText-Regular-10b" transform="translate(5194.828125 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(5217.328125 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(5283.328125 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(5349.328125 0)"/>
+    <use xlink:href="#RedHatText-Regular-184" transform="translate(5415.328125 0)"/>
+    <use xlink:href="#RedHatText-Regular-12a" transform="translate(5475.328125 0)"/>
+    <use xlink:href="#RedHatText-Regular-10e" transform="translate(5511.421875 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(5536.421875 0)"/>
+    <use xlink:href="#RedHatText-Regular-94" transform="translate(5559.71875 0)"/>
+    <use xlink:href="#RedHatText-Regular-ee" transform="translate(5613.921875 0)"/>
+    <use xlink:href="#RedHatText-Regular-7e" transform="translate(5662.015625 0)"/>
+    <use xlink:href="#RedHatText-Regular-b9" transform="translate(5714.609375 0)"/>
+    <use xlink:href="#RedHatText-Regular-11c" transform="translate(5736.90625 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(5783.40625 0)"/>
+    <use xlink:href="#RedHatText-Regular-c5" transform="translate(5841.40625 0)"/>
+    <use xlink:href="#RedHatText-Regular-90" transform="translate(5899.40625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(5957.609375 0)"/>
+    <use xlink:href="#RedHatText-Regular-11c" transform="translate(5980.90625 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(6026.40625 0)"/>
+    <use xlink:href="#RedHatText-Regular-10b" transform="translate(6089.90625 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(6112.40625 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(6178.40625 0)"/>
+    <use xlink:href="#RedHatText-Regular-17e" transform="translate(6241.90625 0)"/>
+    <use xlink:href="#RedHatText-Regular-17f" transform="translate(6301.90625 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(6361.90625 0)"/>
+    <use xlink:href="#RedHatText-Regular-129" transform="translate(6385.203125 0)"/>
+    <use xlink:href="#RedHatText-Regular-11c" transform="translate(6421.296875 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(6466.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-10b" transform="translate(6530.296875 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(6552.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(6618.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-180" transform="translate(6684.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-185" transform="translate(6744.09375 0)"/>
+    <use xlink:href="#RedHatText-Regular-10c" transform="translate(6803.5 0)"/>
+    <use xlink:href="#RedHatText-Regular-102" transform="translate(6828.5 0)"/>
+    <use xlink:href="#RedHatText-Regular-14d" transform="translate(6851.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(6911.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-10b" transform="translate(6975.296875 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(6997.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(7063.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-17c" transform="translate(7129.796875 0)"/>
+    <use xlink:href="#RedHatText-Regular-17e" transform="translate(7193.296875 0)"/>
+    <use xlink:href="#RedHatText-Regular-12a" transform="translate(7253.296875 0)"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8e926cf6da">
+   <rect x="64.8" y="84.672" width="563.76" height="237.888"/>
+  </clipPath>
+ </defs>
+</svg>
